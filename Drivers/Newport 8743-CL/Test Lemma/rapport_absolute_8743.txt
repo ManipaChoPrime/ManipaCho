@@ -1,0 +1,24 @@
+Rapport absolute_8743.py, 2026-10-15 16:18:02
+STATUT : script non exécuté avant ce rapport ; les lignes ci-dessous sont la sortie réelle.
+État avant : {'idn': 'New_Focus 8743-CL v4.06 01/19/17 13097', 'ZZ': '0', 'ZH': 4, 'SN': 1, 'MM': 0, 'QM': 0, 'TP': 0, 'arrete': True, 'VA': 2000, 'AC': 100000, 'PH': 56, 'absolute_search_mode': 0, 'absolute_found': False, 'absolute_search_done': True} ; erreurs en file : aucune
+Confirmation demandée, réponse : 'OUI'
+AF lancé. Suivi de AF? et TP? :
+    t =   2.2 s, TP = 1697, AF? = 0
+    t =   3.2 s, TP = 2931, AF? = 0
+    t =   4.1 s, TP = 4229, AF? = 0
+    t =   5.1 s, TP = 5560, AF? = 0
+    t =   6.0 s, TP = 6797, AF? = 0
+    t =   7.0 s, TP = 8079, AF? = 0
+    t =   8.0 s, TP = 9331, AF? = 0
+    t =   8.9 s, TP = 10605, AF? = 0
+    t =   9.9 s, TP = 11891, AF? = 0
+    t =  10.8 s, TP = 13113, AF? = 0
+    t =  11.8 s, TP = 14408, AF? = 0
+    t =  12.7 s, TP = 15655, AF? = 0
+    t =  13.7 s, TP = 16882, AF? = 0
+    t =  14.6 s, TP = 18133, AF? = 0
+    t =  15.6 s, TP = 19363, AF? = 0
+    t =  16.6 s, TP = 20617, AF? = 0
+ERREUR : RuntimeError : TP s'est éloigné de 20617 comptes du départ (limite 20000).. Envoi de ST puis AB.
+  stop a échoué : '1ST' : 120, HOMING ABORTED
+TP avant 0, TP après 21045, OF? après : False, excursion pendant AF : de +1697 à +20617 comptes (938 µm)

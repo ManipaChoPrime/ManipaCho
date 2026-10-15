@@ -1,0 +1,686 @@
+{
+  "statut": "sortie réelle",
+  "date": "2026-10-15T09:35:09",
+  "tests": [
+    {
+      "id": "T00",
+      "nom": "chargement du pilote et fonctions exportées",
+      "incertitudes": [],
+      "echanges": [],
+      "verdict": "conforme",
+      "note": "6 fonctions exportées"
+    },
+    {
+      "id": "T01",
+      "nom": "terminaison de la réponse à *IDN?",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "*IDN?",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "à examiner",
+      "note": "réponse terminée par CR LF (section 6.1.1 du manuel)"
+    },
+    {
+      "id": "T02",
+      "nom": "terminaison de commande (aucune, CR, LF, CR LF)",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "*IDN?",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "*IDN?\r",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "*IDN?\n",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "*IDN?\r\n",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "terminaisons suivies d'une réponse : '', '\\r', '\\n', '\\r\\n' ; erreurs en file : aucune"
+    },
+    {
+      "id": "T03",
+      "nom": "format de la réponse à *IDN?",
+      "incertitudes": [
+        1,
+        2
+      ],
+      "echanges": [
+        {
+          "commande": "*IDN?",
+          "brut": "New_Focus 8743-CL v4.06 01/19/17 13097\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "attendu : « New_Focus 8743-CL v<version> <date> » (manuel p. 80) ; obtenu 'New_Focus 8743-CL v4.06 01/19/17 13097'. Attendu v4.06 pour S/N > 11001 (notes de firmware p. 2)"
+    },
+    {
+      "id": "T04",
+      "nom": "format de la réponse à VE?",
+      "incertitudes": [
+        1,
+        2
+      ],
+      "echanges": [
+        {
+          "commande": "VE?",
+          "brut": "8743-CL Version 4.06 01/19/17\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "attendu : « 8743-CL Version <v> <date> » (p. 117) ; obtenu '8743-CL Version 4.06 01/19/17'"
+    },
+    {
+      "id": "T05",
+      "nom": "file d'erreurs vide : TE? et TB?",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "TE?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "TB?",
+          "brut": "0, NO ERROR DETECTED\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "file vide : TE? -> 0 et TB? -> « 0, NO ERROR DETECTED » (p. 84 et 85)"
+    },
+    {
+      "id": "T06",
+      "nom": "type de moteur QM? par axe",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "1QM?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2QM?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "QM? par axe : {1: '0', 2: '0'} (valeurs en mémoire, 0 à 3, p. 78) ; aucun test du moteur réel"
+    },
+    {
+      "id": "T07",
+      "nom": "lecture de position TP? par axe",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "1TP?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2TP?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "TP? par axe : {1: '0', 2: '0'} (entier, pas, p. 86) ; 0 attendu après mise sous tension"
+    },
+    {
+      "id": "T08",
+      "nom": "registre ZZ? avec et sans axe",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "ZZ?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1ZZ?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "ZZ? -> '0', 1ZZ? -> '0', erreurs aucune ; le manuel documente ZZ sans axe (p. 89) ; défaut 0 = détection automatique"
+    },
+    {
+      "id": "T09",
+      "nom": "écriture sans réponse",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        }
+      ],
+      "verdict": "conforme",
+      "note": "écriture VA de la valeur actuelle (2000) ; attendu : aucune réponse et file d'erreurs vide ; erreurs aucune"
+    },
+    {
+      "id": "T10",
+      "nom": "défauts et bornes VA et AC, avec restauration",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA1",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1VA?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC1",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1AC?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC200000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1AC?",
+          "brut": "200000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC100000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA1",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2VA?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC1",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2AC?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC200000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2AC?",
+          "brut": "200000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC100000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "bornes du manuel VA 1-2000 et AC 1-200000, défauts 2000 et 100000 : {'1VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '1AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}, '2VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '2AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}} ; erreurs aucune"
+    },
+    {
+      "id": "T11",
+      "nom": "codes d'erreur : inconnue, manquant, axe et valeur hors plage",
+      "incertitudes": [],
+      "echanges": [
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "HELLO?",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        },
+        {
+          "commande": "TB?",
+          "brut": "6, COMMAND DOES NOT EXIST\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        },
+        {
+          "commande": "TB?",
+          "brut": "38, COMMAND PARAMETER MISSING\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "3TP?",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        },
+        {
+          "commande": "TB?",
+          "brut": "9, AXIS NUMBER OUT OF RANGE\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA2001",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        },
+        {
+          "commande": "TB?",
+          "brut": "110, MAXIMUM VELOCITY EXCEEDED\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC200001",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": -1
+        },
+        {
+          "commande": "TB?",
+          "brut": "111, MAXIMUM ACCELERATION EXCEEDED\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1AC100000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2VA2000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "2AC100000",
+          "brut": "(vide)",
+          "code_envoi": 0,
+          "code_lecture": null
+        },
+        {
+          "commande": "1VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2VA?",
+          "brut": "2000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2AC?",
+          "brut": "100000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "codes obtenus {'inconnue': '6', 'parametre_manquant': '38', 'axe_hors_plage': '9', 'va_trop_haut': '110', 'ac_trop_haut': '111'} ; attendus 6, 38, 9, 110 (VA) et 111 (AC) ; VA et AC restaurés sur les axes [1, 2] : True (avant {1: ('2000', '100000'), 2: ('2000', '100000')}, après {1: ('2000', '100000'), 2: ('2000', '100000')})"
+    },
+    {
+      "id": "T12",
+      "nom": "unité SN? par axe",
+      "incertitudes": [
+        3
+      ],
+      "echanges": [
+        {
+          "commande": "1SN?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2SN?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "SN? par axe : {1: '1', 2: '1'} (0 = pas, 1 = comptes codeur, défaut 1, p. 111)"
+    },
+    {
+      "id": "T13",
+      "nom": "boucle fermée MM? par axe",
+      "incertitudes": [
+        4
+      ],
+      "echanges": [
+        {
+          "commande": "1MM?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2MM?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "MM? par axe : {1: '0', 2: '0'} (0 = boucle fermée désactivée, défaut après mise sous tension, p. 94)"
+    },
+    {
+      "id": "T14",
+      "nom": "configuration matérielle ZH? par axe",
+      "incertitudes": [
+        5
+      ],
+      "echanges": [
+        {
+          "commande": "1ZH?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2ZH?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "ZH? par axe : {1: '0', 2: '0'} (bit 0 limites matérielles, bit 1 suivi, bit 2 codeur quasi-absolu, bit 3 limites logicielles, p. 119)"
+    },
+    {
+      "id": "T15",
+      "nom": "paramètres de boucle CL?, DB?, FE?",
+      "incertitudes": [
+        6
+      ],
+      "echanges": [
+        {
+          "commande": "1CL?",
+          "brut": "0.1000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2CL?",
+          "brut": "0.1000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1DB?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2DB?",
+          "brut": "0\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1FE?",
+          "brut": "1000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2FE?",
+          "brut": "1000\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "{'CL?': {1: '0.1000', 2: '0.1000'}, 'DB?': {1: '0', 2: '0'}, 'FE?': {1: '1000', 2: '1000'}} ; le manuel dit « entier » pour CL? (plage 0.1 à 100000 s) : noter si la réponse est décimale (p. 87)"
+    },
+    {
+      "id": "T16",
+      "nom": "état matériel PH? et MD?",
+      "incertitudes": [
+        7
+      ],
+      "echanges": [
+        {
+          "commande": "PH?",
+          "brut": "63\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "1MD?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        },
+        {
+          "commande": "2MD?",
+          "brut": "1\\r\\n",
+          "code_envoi": 0,
+          "code_lecture": 0
+        }
+      ],
+      "verdict": "conforme",
+      "note": "PH? -> '63' (bits 0 à 5 : limites et index des axes 1 et 2, p. 101) ; MD? -> {1: '1', 2: '1'} (0 en mouvement, 1 arrêté)"
+    },
+    {
+      "id": "T17",
+      "nom": "état avec le 8311 branché (lecture seule)",
+      "incertitudes": [
+        8
+      ],
+      "echanges": [],
+      "verdict": "à examiner",
+      "note": "ignoré : relancer avec --moteur-branche une fois le 8311 branché (moteur et codeur)"
+    }
+  ],
+  "controleur": {
+    "device_id": 1,
+    "description": "New_Focus 8743-CL v4.06 01/19/17 13097"
+  },
+  "bilan": {
+    "conforme": 16,
+    "non conforme": 0,
+    "à examiner": 2,
+    "erreur": 0
+  }
+}

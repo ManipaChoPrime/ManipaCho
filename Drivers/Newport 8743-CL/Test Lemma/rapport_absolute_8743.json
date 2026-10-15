@@ -1,0 +1,589 @@
+{
+  "date": "2026-10-15T16:18:02",
+  "axe": 1,
+  "mode_AD": 1,
+  "max_comptes": 20000,
+  "etat_avant": {
+    "idn": "New_Focus 8743-CL v4.06 01/19/17 13097",
+    "ZZ": "0",
+    "ZH": 4,
+    "SN": 1,
+    "MM": 0,
+    "QM": 0,
+    "TP": 0,
+    "arrete": true,
+    "VA": 2000,
+    "AC": 100000,
+    "PH": 56,
+    "absolute_search_mode": 0,
+    "absolute_found": false,
+    "absolute_search_done": true
+  },
+  "erreurs_avant": [],
+  "suivi": [
+    [
+      2.2,
+      1697,
+      false
+    ],
+    [
+      3.2,
+      2931,
+      false
+    ],
+    [
+      4.1,
+      4229,
+      false
+    ],
+    [
+      5.1,
+      5560,
+      false
+    ],
+    [
+      6.0,
+      6797,
+      false
+    ],
+    [
+      7.0,
+      8079,
+      false
+    ],
+    [
+      8.0,
+      9331,
+      false
+    ],
+    [
+      8.9,
+      10605,
+      false
+    ],
+    [
+      9.9,
+      11891,
+      false
+    ],
+    [
+      10.8,
+      13113,
+      false
+    ],
+    [
+      11.8,
+      14408,
+      false
+    ],
+    [
+      12.7,
+      15655,
+      false
+    ],
+    [
+      13.7,
+      16882,
+      false
+    ],
+    [
+      14.6,
+      18133,
+      false
+    ],
+    [
+      15.6,
+      19363,
+      false
+    ],
+    [
+      16.6,
+      20617,
+      false
+    ]
+  ],
+  "etat_apres": {
+    "idn": "New_Focus 8743-CL v4.06 01/19/17 13097",
+    "ZZ": "0",
+    "ZH": 4,
+    "SN": 1,
+    "MM": 0,
+    "QM": 3,
+    "TP": 21045,
+    "arrete": true,
+    "VA": 2000,
+    "AC": 100000,
+    "PH": 56,
+    "absolute_found": false
+  },
+  "echec": "RuntimeError : TP s'est éloigné de 20617 comptes du départ (limite 20000).",
+  "TP_depart": 0,
+  "TP_absolu_apres": 21045,
+  "excursion_comptes": [
+    1697,
+    20617
+  ],
+  "resultat": "échec : RuntimeError : TP s'est éloigné de 20617 comptes du départ (limite 20000).",
+  "echanges": [
+    {
+      "t": 1.177,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 1.33,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 1.481,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 1.633,
+      "envoye": "1ZH?",
+      "recu": "4"
+    },
+    {
+      "t": 1.785,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 1.936,
+      "envoye": "1MM?",
+      "recu": "0"
+    },
+    {
+      "t": 2.087,
+      "envoye": "1QM?",
+      "recu": "0"
+    },
+    {
+      "t": 2.239,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 2.39,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 2.542,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 2.694,
+      "envoye": "1VA?",
+      "recu": "2000"
+    },
+    {
+      "t": 2.846,
+      "envoye": "1AC?",
+      "recu": "100000"
+    },
+    {
+      "t": 2.997,
+      "envoye": "PH?",
+      "recu": "56"
+    },
+    {
+      "t": 3.149,
+      "envoye": "1AD?",
+      "recu": "0"
+    },
+    {
+      "t": 3.3,
+      "envoye": "1OF?",
+      "recu": "0"
+    },
+    {
+      "t": 3.452,
+      "envoye": "1AF?",
+      "recu": "1"
+    },
+    {
+      "t": 3.603,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 6.111,
+      "envoye": "1AD1"
+    },
+    {
+      "t": 7.274,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 7.426,
+      "envoye": "1QM?",
+      "recu": "0"
+    },
+    {
+      "t": 7.578,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 7.729,
+      "envoye": "1ZH?",
+      "recu": "4"
+    },
+    {
+      "t": 7.881,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 7.881,
+      "envoye": "1AF"
+    },
+    {
+      "t": 9.037,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 9.189,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 9.341,
+      "envoye": "1TP?",
+      "recu": "1697"
+    },
+    {
+      "t": 9.492,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 10.146,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 10.297,
+      "envoye": "1TP?",
+      "recu": "2931"
+    },
+    {
+      "t": 10.449,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 11.102,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 11.253,
+      "envoye": "1TP?",
+      "recu": "4229"
+    },
+    {
+      "t": 11.405,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 12.058,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 12.209,
+      "envoye": "1TP?",
+      "recu": "5560"
+    },
+    {
+      "t": 12.361,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 13.013,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 13.165,
+      "envoye": "1TP?",
+      "recu": "6797"
+    },
+    {
+      "t": 13.317,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 13.97,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 14.121,
+      "envoye": "1TP?",
+      "recu": "8079"
+    },
+    {
+      "t": 14.273,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 14.926,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 15.078,
+      "envoye": "1TP?",
+      "recu": "9331"
+    },
+    {
+      "t": 15.23,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 15.883,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 16.035,
+      "envoye": "1TP?",
+      "recu": "10605"
+    },
+    {
+      "t": 16.187,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 16.84,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 16.991,
+      "envoye": "1TP?",
+      "recu": "11891"
+    },
+    {
+      "t": 17.143,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 17.797,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 17.949,
+      "envoye": "1TP?",
+      "recu": "13113"
+    },
+    {
+      "t": 18.1,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 18.752,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 18.903,
+      "envoye": "1TP?",
+      "recu": "14408"
+    },
+    {
+      "t": 19.055,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 19.708,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 19.86,
+      "envoye": "1TP?",
+      "recu": "15655"
+    },
+    {
+      "t": 20.011,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 20.664,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 20.815,
+      "envoye": "1TP?",
+      "recu": "16882"
+    },
+    {
+      "t": 20.967,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 21.62,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 21.772,
+      "envoye": "1TP?",
+      "recu": "18133"
+    },
+    {
+      "t": 21.923,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 22.576,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 22.728,
+      "envoye": "1TP?",
+      "recu": "19363"
+    },
+    {
+      "t": 22.88,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 23.532,
+      "envoye": "1AF?",
+      "recu": "0"
+    },
+    {
+      "t": 23.684,
+      "envoye": "1TP?",
+      "recu": "20617"
+    },
+    {
+      "t": 23.836,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 23.838,
+      "envoye": "1ST"
+    },
+    {
+      "t": 25.007,
+      "envoye": "TB?",
+      "recu": "120, HOMING ABORTED"
+    },
+    {
+      "t": 25.159,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 25.159,
+      "envoye": "AB"
+    },
+    {
+      "t": 26.314,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 26.314,
+      "envoye": "1AD0"
+    },
+    {
+      "t": 27.466,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 28.119,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 28.27,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 28.421,
+      "envoye": "1ZH?",
+      "recu": "4"
+    },
+    {
+      "t": 28.573,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 28.725,
+      "envoye": "1MM?",
+      "recu": "0"
+    },
+    {
+      "t": 28.877,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 29.028,
+      "envoye": "1TP?",
+      "recu": "21045"
+    },
+    {
+      "t": 29.179,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 29.331,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 29.482,
+      "envoye": "1VA?",
+      "recu": "2000"
+    },
+    {
+      "t": 29.634,
+      "envoye": "1AC?",
+      "recu": "100000"
+    },
+    {
+      "t": 29.786,
+      "envoye": "PH?",
+      "recu": "56"
+    },
+    {
+      "t": 29.938,
+      "envoye": "1OF?",
+      "recu": "0"
+    }
+  ]
+}

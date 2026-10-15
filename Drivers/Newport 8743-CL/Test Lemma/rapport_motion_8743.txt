@@ -1,0 +1,70 @@
+Rapport motion_8743.py, 2026-10-15 16:39:29
+STATUT : script non exécuté avant ce rapport ; les lignes ci-dessous sont la sortie réelle.
+Axe 1, aller de -41700 comptes puis retour de +41700, VA=500.
+Durée attendue par mouvement : 206.8 s d'après le manuel du 8311 (49,6 nm par comptage, 20 nm par pas, VA en pas/s) ; 132.8 s d'après la mesure à VA=50 (31 comptes/s, supposée proportionnelle à VA).
+État avant : {'idn': 'New_Focus 8743-CL v4.06 01/19/17 13097', 'ZZ': '0', 'ZH': 4, 'SN': 1, 'MM': 0, 'QM': 3, 'TP': 21044, 'arrete': True, 'VA': 2000, 'AC': 100000, 'PH': 56} ; erreurs en file : aucune
+Confirmation demandée, réponse : 'OUI'
+TP lu 3 fois au repos après l'écriture de VA : [21044, 21044, 21044]
+    t = 2.1 s, TP = 20355
+    t = 4.3 s, TP = 19633
+    t = 6.4 s, TP = 18931
+    t = 8.5 s, TP = 18237
+    t = 10.6 s, TP = 17515
+    t = 12.8 s, TP = 16816
+    t = 14.9 s, TP = 16122
+    t = 17.0 s, TP = 15429
+    t = 19.2 s, TP = 14726
+    t = 21.3 s, TP = 14004
+    t = 23.4 s, TP = 13288
+    t = 25.5 s, TP = 12600
+    t = 27.7 s, TP = 11923
+    t = 29.8 s, TP = 11203
+    t = 31.9 s, TP = 10497
+    t = 34.0 s, TP = 9802
+    t = 36.2 s, TP = 9120
+    t = 38.3 s, TP = 8434
+    t = 40.4 s, TP = 7724
+    t = 42.5 s, TP = 7027
+    t = 44.7 s, TP = 6337
+    t = 46.8 s, TP = 5659
+    t = 49.0 s, TP = 4946
+    t = 51.1 s, TP = 4238
+    t = 53.2 s, TP = 3543
+    t = 55.3 s, TP = 2862
+    t = 57.4 s, TP = 2178
+    t = 59.6 s, TP = 1481
+    t = 61.7 s, TP = 779
+    t = 63.8 s, TP = 110
+    t = 65.9 s, TP = -553
+    t = 68.1 s, TP = -1251
+    t = 70.2 s, TP = -1953
+    t = 72.4 s, TP = -2654
+    t = 74.5 s, TP = -3334
+    t = 76.6 s, TP = -4011
+    t = 78.7 s, TP = -4695
+    t = 80.8 s, TP = -5399
+    t = 83.0 s, TP = -6079
+    t = 85.1 s, TP = -6749
+    t = 87.2 s, TP = -7419
+    t = 89.4 s, TP = -8146
+    t = 91.5 s, TP = -8846
+    t = 93.6 s, TP = -9529
+    t = 95.8 s, TP = -10215
+    t = 97.9 s, TP = -10899
+    t = 100.0 s, TP = -11611
+    t = 102.2 s, TP = -12300
+    t = 104.3 s, TP = -12978
+    t = 106.4 s, TP = -13647
+    t = 108.5 s, TP = -14334
+    t = 110.7 s, TP = -15020
+    t = 112.8 s, TP = -15705
+    t = 114.9 s, TP = -16386
+    t = 117.0 s, TP = -17063
+    t = 119.2 s, TP = -17755
+    t = 121.3 s, TP = -18463
+    t = 123.4 s, TP = -19136
+    t = 125.5 s, TP = -19810
+    t = 127.6 s, TP = -20466
+  PR -41700 : TP 21044 -> -20655 (delta -41699), envoi 0.151 s, sortie de la boucle à 128.551 s, MD? à 0 de 0.302 s à 128.349 s après l'envoi, PR? -> '-20655', QM? -> 3, erreurs aucune
+ERREUR : KeyboardInterrupt : . Envoi de ST puis AB.
+VA et AC restaurés : True ; état après : {'idn': 'New_Focus 8743-CL v4.06 01/19/17 13097', 'ZZ': '0', 'ZH': 4, 'SN': 1, 'MM': 0, 'QM': 3, 'TP': -20655, 'arrete': True, 'VA': 2000, 'AC': 100000, 'PH': 56}

@@ -1,0 +1,42 @@
+Rapport probe_8743.py, 2026-10-15 09:35:09, moteur branché : False
+STATUT : script non exécuté avant ce rapport ; les lignes ci-dessous sont la sortie réelle.
+Aucune commande de mouvement ni de configuration de boucle n'est envoyée (gardes dans le script).
+DLL chargée : C:\Program Files (x86)\Newport\Newport USB Driver\Bin\x64\usbdll.dll, architecture x64
+Contrôleurs listés : [(1, 'New_Focus 8743-CL v4.06 01/19/17 13097')]
+Contrôleur sondé : DeviceID 1, New_Focus 8743-CL v4.06 01/19/17 13097
+
+[T00] chargement du pilote et fonctions exportées | envoyé :  | brut :  | verdict : conforme | 6 fonctions exportées
+[T01] terminaison de la réponse à *IDN? | envoyé : *IDN? | brut : New_Focus 8743-CL v4.06 01/19/17 13097\r\n | verdict : à examiner | réponse terminée par CR LF (section 6.1.1 du manuel)
+[T02] terminaison de commande (aucune, CR, LF, CR LF) | envoyé : *IDN? ; *IDN?\r ; *IDN?\n ; *IDN?\r\n | brut : New_Focus 8743-CL v4.06 01/19/17 13097\r\n ; New_Focus 8743-CL v4.06 01/19/17 13097\r\n ; New_Focus 8743-CL v4.06 01/19/17 13097\r\n ; New_Focus 8743-CL v4.06 01/19/17 13097\r\n | verdict : conforme | terminaisons suivies d'une réponse : '', '\r', '\n', '\r\n' ; erreurs en file : aucune
+[T03] format de la réponse à *IDN? | envoyé : *IDN? | brut : New_Focus 8743-CL v4.06 01/19/17 13097\r\n | verdict : conforme | attendu : « New_Focus 8743-CL v<version> <date> » (manuel p. 80) ; obtenu 'New_Focus 8743-CL v4.06 01/19/17 13097'. Attendu v4.06 pour S/N > 11001 (notes de firmware p. 2)
+[T04] format de la réponse à VE? | envoyé : VE? | brut : 8743-CL Version 4.06 01/19/17\r\n | verdict : conforme | attendu : « 8743-CL Version <v> <date> » (p. 117) ; obtenu '8743-CL Version 4.06 01/19/17'
+[T05] file d'erreurs vide : TE? et TB? | envoyé : TE? ; TB? | brut : 0\r\n ; 0, NO ERROR DETECTED\r\n | verdict : conforme | file vide : TE? -> 0 et TB? -> « 0, NO ERROR DETECTED » (p. 84 et 85)
+[T06] type de moteur QM? par axe | envoyé : 1QM? ; 2QM? | brut : 0\r\n ; 0\r\n | verdict : conforme | QM? par axe : {1: '0', 2: '0'} (valeurs en mémoire, 0 à 3, p. 78) ; aucun test du moteur réel
+[T07] lecture de position TP? par axe | envoyé : 1TP? ; 2TP? | brut : 0\r\n ; 0\r\n | verdict : conforme | TP? par axe : {1: '0', 2: '0'} (entier, pas, p. 86) ; 0 attendu après mise sous tension
+[T08] registre ZZ? avec et sans axe | envoyé : ZZ? ; 1ZZ? | brut : 0\r\n ; 0\r\n | verdict : conforme | ZZ? -> '0', 1ZZ? -> '0', erreurs aucune ; le manuel documente ZZ sans axe (p. 89) ; défaut 0 = détection automatique
+[T09] écriture sans réponse | envoyé : 1VA? ; 1VA2000 | brut : 2000\r\n ; (vide) | verdict : conforme | écriture VA de la valeur actuelle (2000) ; attendu : aucune réponse et file d'erreurs vide ; erreurs aucune
+[T10] défauts et bornes VA et AC, avec restauration | envoyé : 1VA? ; 1VA1 ; 1VA? ; 1VA2000 ; 1VA? ; 1VA2000 (+22 échanges) | brut : 2000\r\n ; (vide) ; 1\r\n ; (vide) ; 2000\r\n ; (vide) (+22 échanges) | verdict : conforme | bornes du manuel VA 1-2000 et AC 1-200000, défauts 2000 et 100000 : {'1VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '1AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}, '2VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '2AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}} ; erreurs aucune
+[T11] codes d'erreur : inconnue, manquant, axe et valeur hors plage | envoyé : 1VA? ; 1AC? ; 2VA? ; 2AC? ; HELLO? ; TB? (+16 échanges) | brut : 2000\r\n ; 100000\r\n ; 2000\r\n ; 100000\r\n ; (vide) ; 6, COMMAND DOES NOT EXIST\r\n (+16 échanges) | verdict : conforme | codes obtenus {'inconnue': '6', 'parametre_manquant': '38', 'axe_hors_plage': '9', 'va_trop_haut': '110', 'ac_trop_haut': '111'} ; attendus 6, 38, 9, 110 (VA) et 111 (AC) ; VA et AC restaurés sur les axes [1, 2] : True (avant {1: ('2000', '100000'), 2: ('2000', '100000')}, après {1: ('2000', '100000'), 2: ('2000', '100000')})
+[T12] unité SN? par axe | envoyé : 1SN? ; 2SN? | brut : 1\r\n ; 1\r\n | verdict : conforme | SN? par axe : {1: '1', 2: '1'} (0 = pas, 1 = comptes codeur, défaut 1, p. 111)
+[T13] boucle fermée MM? par axe | envoyé : 1MM? ; 2MM? | brut : 0\r\n ; 0\r\n | verdict : conforme | MM? par axe : {1: '0', 2: '0'} (0 = boucle fermée désactivée, défaut après mise sous tension, p. 94)
+[T14] configuration matérielle ZH? par axe | envoyé : 1ZH? ; 2ZH? | brut : 0\r\n ; 0\r\n | verdict : conforme | ZH? par axe : {1: '0', 2: '0'} (bit 0 limites matérielles, bit 1 suivi, bit 2 codeur quasi-absolu, bit 3 limites logicielles, p. 119)
+[T15] paramètres de boucle CL?, DB?, FE? | envoyé : 1CL? ; 2CL? ; 1DB? ; 2DB? ; 1FE? ; 2FE? | brut : 0.1000\r\n ; 0.1000\r\n ; 0\r\n ; 0\r\n ; 1000\r\n ; 1000\r\n | verdict : conforme | {'CL?': {1: '0.1000', 2: '0.1000'}, 'DB?': {1: '0', 2: '0'}, 'FE?': {1: '1000', 2: '1000'}} ; le manuel dit « entier » pour CL? (plage 0.1 à 100000 s) : noter si la réponse est décimale (p. 87)
+[T16] état matériel PH? et MD? | envoyé : PH? ; 1MD? ; 2MD? | brut : 63\r\n ; 1\r\n ; 1\r\n | verdict : conforme | PH? -> '63' (bits 0 à 5 : limites et index des axes 1 et 2, p. 101) ; MD? -> {1: '1', 2: '1'} (0 en mouvement, 1 arrêté)
+[T17] état avec le 8311 branché (lecture seule) | envoyé :  | brut :  | verdict : à examiner | ignoré : relancer avec --moteur-branche une fois le 8311 branché (moteur et codeur)
+
+Correspondance incertitude -> test (protocol_8742.md) :
+  U1  Format de *IDN? et VE? du 8743-CL : couverte par T03, T04
+  U2  Firmware selon le numéro de série (v4.06 attendu pour S/N > 11001) : couverte par T03, T04
+  U3  Unité par défaut SN (1 = comptes codeur) : couverte par T12
+  U4  MM par défaut (0 = boucle fermée désactivée) : couverte par T13 (Le manuel écrit la syntaxe xxDB? pour MM? et FE? : la sonde envoie xxMM? et xxFE?.)
+  U5  ZH par défaut et bits : couverte par T14
+  U6  Format de CL? (entier ou décimal) : couverte par T15
+  U7  Bits de PH? et état de MD? : couverte par T16
+  U8  Moteur et codeur vus avec le 8311 branché : couverte par T17 (Seulement avec --moteur-branche.)
+  U9  Sens de PR? : NON couverte (Exige un déplacement.)
+  U10 MV? non décrite : NON couverte (Mnémonique de mouvement exclu.)
+  U11 Unité de VA et AC quand SN=1 : NON couverte (Exige un mouvement mesuré.)
+  U12 Comportement de la boucle fermée (MM=1) : NON couverte (Exige un mouvement.)
+  U13 Port TCP : NON couverte (Ethernet seulement : ce script n'utilise que l'USB.)
+
+Bilan : {'conforme': 16, 'non conforme': 0, 'à examiner': 2, 'erreur': 0}

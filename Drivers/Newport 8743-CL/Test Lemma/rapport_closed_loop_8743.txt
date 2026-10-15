@@ -1,0 +1,29 @@
+Rapport closed_loop_8743.py, 2026-10-15 15:20:00
+STATUT : script non exécuté avant ce rapport ; les lignes ci-dessous sont la sortie réelle.
+État avant : {'idn': 'New_Focus 8743-CL v4.06 01/19/17 13097', 'ZZ': '0', 'ZH': 4, 'SN': 1, 'MM': 0, 'QM': 0, 'TP': 0, 'arrete': True, 'VA': 2000, 'AC': 100000, 'PH': 56, 'deadband': 0, 'update_interval': 0.1, 'following_error': 1000, 'absolute_found': False} ; erreurs en file : aucune
+Confirmation demandée, réponse : 'OUI'
+A = 0, B = 10000 (écart 10000 comptes, 496 µm).
+Phase boucle ouverte (MM=0) :
+  cycle 1 :
+    B (cible 10000) : arrêt à 29.5 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.2 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  cycle 2 :
+    B (cible 10000) : arrêt à 28.5 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.4 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  cycle 3 :
+    B (cible 10000) : arrêt à 28.3 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.4 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  Écarts finaux TP - cible (comptes) : A {'n': 3, 'ecarts': [0, 0, 0], 'moyenne': 0, 'min': 0, 'max': 0, 'dispersion': 0, 'max_abs': 0}, B {'n': 3, 'ecarts': [0, 0, 0], 'moyenne': 0, 'min': 0, 'max': 0, 'dispersion': 0, 'max_abs': 0}
+Phase boucle fermée (MM=1) :
+  MM=1 activé, TP lu 4 fois au repos : [0, 0, 0, 0]
+  cycle 1 :
+    B (cible 10000) : arrêt à 28.1 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.4 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  cycle 2 :
+    B (cible 10000) : arrêt à 28.2 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.4 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  cycle 3 :
+    B (cible 10000) : arrêt à 28.2 s, TP 10000 (écart +0), après 2.0 s TP 10000 (écart +0), erreurs aucune
+    A (cible 0) : arrêt à 31.4 s, TP 0 (écart +0), après 2.0 s TP 0 (écart +0), erreurs aucune
+  Écarts finaux TP - cible (comptes) : A {'n': 3, 'ecarts': [0, 0, 0], 'moyenne': 0, 'min': 0, 'max': 0, 'dispersion': 0, 'max_abs': 0}, B {'n': 3, 'ecarts': [0, 0, 0], 'moyenne': 0, 'min': 0, 'max': 0, 'dispersion': 0, 'max_abs': 0}
+MM, VA, AC restaurés : True ; état après : {'idn': 'New_Focus 8743-CL v4.06 01/19/17 13097', 'ZZ': '0', 'ZH': 4, 'SN': 1, 'MM': 0, 'QM': 3, 'TP': 0, 'arrete': True, 'VA': 2000, 'AC': 100000, 'PH': 56}

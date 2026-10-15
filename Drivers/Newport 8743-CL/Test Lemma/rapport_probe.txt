@@ -1,0 +1,34 @@
+Rapport probe_8742.py, 2026-10-14 16:43:17
+STATUT : script non exécuté avant ce rapport ; les lignes ci-dessous sont la sortie réelle.
+Aucune commande de mouvement n'est envoyée (garde dans le script).
+DLL chargée : C:\Program Files (x86)\Newport\Newport USB Driver\Bin\x64\usbdll.dll, architecture x64
+Contrôleur sondé : DeviceID 1, New_Focus 8742 v3.04 09/09/16 108042
+
+[T00] chargement du pilote et fonctions exportées | envoyé :  | brut :  | verdict : conforme | 6 fonctions exportées
+[T01] terminaison de la réponse à *IDN? | envoyé : *IDN? | brut : New_Focus 8742 v3.04 09/09/16 108042\r\n | verdict : à examiner | réponse terminée par CR LF (section 6.1.1 du manuel)
+[T02] terminaison de commande (aucune, CR, LF, CR LF) | envoyé : *IDN? ; *IDN?\r ; *IDN?\n ; *IDN?\r\n | brut : New_Focus 8742 v3.04 09/09/16 108042\r\n ; New_Focus 8742 v3.04 09/09/16 108042\r\n ; New_Focus 8742 v3.04 09/09/16 108042\r\n ; New_Focus 8742 v3.04 09/09/16 108042\r\n | verdict : conforme | terminaisons suivies d'une réponse : '', '\r', '\n', '\r\n' ; erreurs en file : aucune
+[T03] format de la réponse à *IDN? | envoyé : *IDN? | brut : New_Focus 8742 v3.04 09/09/16 108042\r\n | verdict : conforme | attendu : « New_Focus <modèle> v<version> <date> » ; le manuel (p. 68) ajoute « , SN<série> », absent sur le 8742 réel (v3.04) où la série suit la date sans virgule ni SN
+[T04] format de la réponse à VE? | envoyé : VE? | brut : 8742 Version 3.04 09/09/16\r\n | verdict : conforme | attendu : « 8742 Version 1.9 11/01/12 » (p. 88)
+[T05] file d'erreurs vide : TE? et TB? | envoyé : TE? ; TB? | brut : 0\r\n ; 0, NO ERROR DETECTED\r\n | verdict : conforme | file vide : TE? -> 0 et TB? -> « 0, NO ERROR DETECTED » (p. 84 et 85)
+[T06] type de moteur QM? par axe | envoyé : 1QM? ; 2QM? ; 3QM? ; 4QM? | brut : 0\r\n ; 0\r\n ; 0\r\n ; 0\r\n | verdict : conforme | QM? par axe : {1: '0', 2: '0', 3: '0', 4: '0'} (valeurs en mémoire, 0 à 3, p. 78) ; aucun test du moteur réel
+[T07] lecture de position TP? par axe | envoyé : 1TP? ; 2TP? ; 3TP? ; 4TP? | brut : 0\r\n ; 0\r\n ; 0\r\n ; 0\r\n | verdict : conforme | TP? par axe : {1: '0', 2: '0', 3: '0', 4: '0'} (entier, pas, p. 86) ; 0 attendu après mise sous tension
+[T08] registre ZZ? avec et sans axe | envoyé : ZZ? ; 1ZZ? | brut : 0\r\n ; 0\r\n | verdict : conforme | ZZ? -> '0', 1ZZ? -> '0', erreurs aucune ; le manuel documente ZZ sans axe (p. 89) ; défaut 0 = détection automatique
+[T09] écriture sans réponse | envoyé : 1VA? ; 1VA2000 | brut : 2000\r\n ; (vide) | verdict : conforme | écriture VA de la valeur actuelle (2000) ; attendu : aucune réponse et file d'erreurs vide ; erreurs aucune
+[T10] défauts et bornes VA et AC, avec restauration | envoyé : 1VA? ; 1VA1 ; 1VA? ; 1VA2000 ; 1VA? ; 1VA2000 (+50 échanges) | brut : 2000\r\n ; (vide) ; 1\r\n ; (vide) ; 2000\r\n ; (vide) (+50 échanges) | verdict : conforme | bornes du manuel VA 1-2000 et AC 1-200000, défauts 2000 et 100000 : {'1VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '1AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}, '2VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '2AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}, '3VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '3AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}, '4VA': {'origine': '2000', 'defaut_manuel': 2000, 'bas': '1', 'haut': '2000', 'restaure': '2000'}, '4AC': {'origine': '100000', 'defaut_manuel': 100000, 'bas': '1', 'haut': '200000', 'restaure': '100000'}} ; erreurs aucune
+[T11] codes d'erreur : inconnue, manquant, axe et valeur hors plage | envoyé : 1VA? ; 1AC? ; 2VA? ; 2AC? ; 3VA? ; 3AC? (+28 échanges) | brut : 2000\r\n ; 100000\r\n ; 2000\r\n ; 100000\r\n ; 2000\r\n ; 100000\r\n (+28 échanges) | verdict : conforme | codes obtenus {'inconnue': '6', 'parametre_manquant': '38', 'axe_hors_plage': '9', 'va_trop_haut': '110', 'ac_trop_haut': '111'} ; attendus 6, 38, 9, 110 (VA) et 111 (AC) ; VA et AC restaurés sur les axes [1, 2, 3, 4] : True (avant {1: ('2000', '100000'), 2: ('2000', '100000'), 3: ('2000', '100000'), 4: ('2000', '100000')}, après {1: ('2000', '100000'), 2: ('2000', '100000'), 3: ('2000', '100000'), 4: ('2000', '100000')})
+
+Correspondance incertitude -> test (protocol_8742.md) :
+  U1  Terminaison de commande : couverte par T02
+  U2  Terminaison de réponse : couverte par T01, T03
+  U3  Port TCP : NON couverte (Ethernet seulement : ce script n'utilise que l'USB.)
+  U4  API de la DLL USB : couverte par T00 (Réglée par le manuel de l'API fourni ; T00 vérifie que la DLL exporte les fonctions utilisées.)
+  U5  Sens de PR? : NON couverte (Exige l'envoi de PR? (mnémonique de mouvement exclu) et, pour trancher, un déplacement.)
+  U6  MV? non décrite : NON couverte (MV? est un mnémonique de mouvement exclu, et le manuel déconseille de l'utiliser.)
+  U7  Format de CL? : NON couverte (CL? n'existe que sur le 8743-CL.)
+  U8  Unité de VA et AC : couverte par T10 (Partielle : T10 vérifie le relu des valeurs, mais l'unité exige un mouvement mesuré.)
+  U9  Écriture : réponse ou non : couverte par T09
+  U10 Axe de ZZ : couverte par T08
+  U11 Hors plage : 7 ou x01 : couverte par T11
+  U12 Deux axes en mouvement : NON couverte (Exige deux moteurs câblés et des mouvements.)
+
+Bilan : {'conforme': 11, 'non conforme': 0, 'à examiner': 1, 'erreur': 0}

@@ -1,0 +1,18 @@
+{
+  "13097": {
+    "1": {
+      "positions": {
+        "A": {
+          "counts": 1000000,
+          "um_depuis_reference": 0.0,
+          "date": "2026-10-15T17:19:43"
+        },
+        "B": {
+          "counts": 1002016,
+          "um_depuis_reference": 99.994,
+          "date": "2026-10-15T17:19:50"
+        }
+      }
+    }
+  }
+}

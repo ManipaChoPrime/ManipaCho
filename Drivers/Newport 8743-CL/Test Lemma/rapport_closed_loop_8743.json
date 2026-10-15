@@ -1,0 +1,10169 @@
+{
+  "date": "2026-10-15T15:20:00",
+  "axe": 1,
+  "amplitude": 10000,
+  "va": 500,
+  "deadband": 2,
+  "cycles": 3,
+  "etat_avant": {
+    "idn": "New_Focus 8743-CL v4.06 01/19/17 13097",
+    "ZZ": "0",
+    "ZH": 4,
+    "SN": 1,
+    "MM": 0,
+    "QM": 0,
+    "TP": 0,
+    "arrete": true,
+    "VA": 2000,
+    "AC": 100000,
+    "PH": 56,
+    "deadband": 0,
+    "update_interval": 0.1,
+    "following_error": 1000,
+    "absolute_found": false
+  },
+  "erreurs_avant": [],
+  "A": 0,
+  "B": 10000,
+  "phases": {
+    "ouverte": {
+      "visites": [
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 29.5,
+          "serie_TP": [
+            [
+              29.8,
+              10000
+            ],
+            [
+              30.6,
+              10000
+            ],
+            [
+              31.41,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.18,
+          "serie_TP": [
+            [
+              31.48,
+              0
+            ],
+            [
+              32.28,
+              0
+            ],
+            [
+              33.09,
+              0
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 28.55,
+          "serie_TP": [
+            [
+              28.85,
+              10000
+            ],
+            [
+              29.65,
+              10000
+            ],
+            [
+              30.46,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.39,
+          "serie_TP": [
+            [
+              31.69,
+              0
+            ],
+            [
+              32.5,
+              0
+            ],
+            [
+              33.3,
+              0
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 28.34,
+          "serie_TP": [
+            [
+              28.64,
+              10000
+            ],
+            [
+              29.45,
+              10000
+            ],
+            [
+              30.25,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.37,
+          "serie_TP": [
+            [
+              31.68,
+              0
+            ],
+            [
+              32.48,
+              0
+            ],
+            [
+              33.28,
+              0
+            ]
+          ],
+          "erreurs": []
+        }
+      ],
+      "A": {
+        "n": 3,
+        "ecarts": [
+          0,
+          0,
+          0
+        ],
+        "moyenne": 0,
+        "min": 0,
+        "max": 0,
+        "dispersion": 0,
+        "max_abs": 0
+      },
+      "B": {
+        "n": 3,
+        "ecarts": [
+          0,
+          0,
+          0
+        ],
+        "moyenne": 0,
+        "min": 0,
+        "max": 0,
+        "dispersion": 0,
+        "max_abs": 0
+      }
+    },
+    "fermee": {
+      "visites": [
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 28.14,
+          "serie_TP": [
+            [
+              28.44,
+              10000
+            ],
+            [
+              29.24,
+              10000
+            ],
+            [
+              30.05,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.38,
+          "serie_TP": [
+            [
+              31.68,
+              0
+            ],
+            [
+              32.48,
+              0
+            ],
+            [
+              33.28,
+              0
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 28.18,
+          "serie_TP": [
+            [
+              28.48,
+              10000
+            ],
+            [
+              29.28,
+              10000
+            ],
+            [
+              30.08,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.4,
+          "serie_TP": [
+            [
+              31.7,
+              0
+            ],
+            [
+              32.5,
+              0
+            ],
+            [
+              33.3,
+              0
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "B",
+          "cible": 10000,
+          "TP_avant": 0,
+          "TP_a_l_arret": 10000,
+          "TP_final": 10000,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 28.18,
+          "serie_TP": [
+            [
+              28.48,
+              10000
+            ],
+            [
+              29.29,
+              10000
+            ],
+            [
+              30.09,
+              10000
+            ]
+          ],
+          "erreurs": []
+        },
+        {
+          "point": "A",
+          "cible": 0,
+          "TP_avant": 10000,
+          "TP_a_l_arret": 0,
+          "TP_final": 0,
+          "ecart_a_l_arret": 0,
+          "ecart_final": 0,
+          "duree_mouvement_s": 31.37,
+          "serie_TP": [
+            [
+              31.67,
+              0
+            ],
+            [
+              32.48,
+              0
+            ],
+            [
+              33.28,
+              0
+            ]
+          ],
+          "erreurs": []
+        }
+      ],
+      "A": {
+        "n": 3,
+        "ecarts": [
+          0,
+          0,
+          0
+        ],
+        "moyenne": 0,
+        "min": 0,
+        "max": 0,
+        "dispersion": 0,
+        "max_abs": 0
+      },
+      "B": {
+        "n": 3,
+        "ecarts": [
+          0,
+          0,
+          0
+        ],
+        "moyenne": 0,
+        "min": 0,
+        "max": 0,
+        "dispersion": 0,
+        "max_abs": 0
+      }
+    }
+  },
+  "TP_apres_MM1": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "etat_apres": {
+    "idn": "New_Focus 8743-CL v4.06 01/19/17 13097",
+    "ZZ": "0",
+    "ZH": 4,
+    "SN": 1,
+    "MM": 0,
+    "QM": 3,
+    "TP": 0,
+    "arrete": true,
+    "VA": 2000,
+    "AC": 100000,
+    "PH": 56
+  },
+  "echec": null,
+  "restaure": true,
+  "resultat": "terminé",
+  "echanges": [
+    {
+      "t": 1.155,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 1.307,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 1.46,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 1.612,
+      "envoye": "1ZH?",
+      "recu": "4"
+    },
+    {
+      "t": 1.763,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 1.914,
+      "envoye": "1MM?",
+      "recu": "0"
+    },
+    {
+      "t": 2.065,
+      "envoye": "1QM?",
+      "recu": "0"
+    },
+    {
+      "t": 2.216,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 2.368,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 2.519,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 2.671,
+      "envoye": "1VA?",
+      "recu": "2000"
+    },
+    {
+      "t": 2.823,
+      "envoye": "1AC?",
+      "recu": "100000"
+    },
+    {
+      "t": 2.975,
+      "envoye": "PH?",
+      "recu": "56"
+    },
+    {
+      "t": 3.127,
+      "envoye": "1DB?",
+      "recu": "0"
+    },
+    {
+      "t": 3.279,
+      "envoye": "1CL?",
+      "recu": "0.1000"
+    },
+    {
+      "t": 3.43,
+      "envoye": "1FE?",
+      "recu": "1000"
+    },
+    {
+      "t": 3.582,
+      "envoye": "1OF?",
+      "recu": "0"
+    },
+    {
+      "t": 3.734,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 7.728,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 7.879,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 7.88,
+      "envoye": "1VA500"
+    },
+    {
+      "t": 9.042,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 9.042,
+      "envoye": "1DB2"
+    },
+    {
+      "t": 10.196,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 10.354,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 10.505,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 10.656,
+      "envoye": "1QM?",
+      "recu": "0"
+    },
+    {
+      "t": 10.808,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 10.959,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 10.96,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 12.115,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 12.267,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 12.47,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 12.673,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 12.876,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 13.078,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 13.281,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 13.483,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 13.686,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 13.889,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 14.091,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 14.294,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 14.497,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 14.699,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 14.902,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 15.105,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 15.308,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 15.51,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 15.711,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 15.914,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 16.116,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 16.319,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 16.521,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 16.724,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 16.926,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 17.128,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 17.33,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 17.532,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 17.735,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 17.937,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 18.139,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 18.341,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 18.544,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 18.746,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 18.949,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 19.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 19.354,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 19.557,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 19.759,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 19.962,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 20.165,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 20.367,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 20.57,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 20.772,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 20.975,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 21.178,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 21.38,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 21.582,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 21.785,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 21.987,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 22.189,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 22.39,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 22.593,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 22.795,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 22.997,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 23.2,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 23.402,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 23.605,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 23.808,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 24.011,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 24.213,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 24.415,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 24.618,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 24.82,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 25.023,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 25.225,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 25.428,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 25.63,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 25.833,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 26.035,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 26.238,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 26.44,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 26.642,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 26.844,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 27.047,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 27.249,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 27.452,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 27.655,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 27.856,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 28.059,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 28.262,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 28.464,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 28.667,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 28.869,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 29.071,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 29.274,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 29.476,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 29.678,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 29.881,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 30.082,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 30.284,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 30.487,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 30.69,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 30.892,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 31.094,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 31.295,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 31.498,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 31.7,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 31.902,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 32.105,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 32.308,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 32.511,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 32.714,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 32.917,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 33.119,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 33.322,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 33.524,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 33.727,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 33.929,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 34.131,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 34.332,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 34.535,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 34.737,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 34.939,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 35.141,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 35.344,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 35.545,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 35.748,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 35.951,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 36.153,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 36.356,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 36.559,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 36.761,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 36.964,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 37.167,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 37.369,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 37.572,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 37.775,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 37.977,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 38.18,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 38.383,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 38.586,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 38.787,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 38.99,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 39.193,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 39.395,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 39.597,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 39.799,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 40.001,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 40.152,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 40.304,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 40.455,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 40.606,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 41.259,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 41.41,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 42.063,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 42.214,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 42.867,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 43.019,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 43.171,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 43.324,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 43.476,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 43.628,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 43.78,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 43.78,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 44.94,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 45.091,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 45.293,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 45.496,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 45.698,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 45.901,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 46.103,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 46.306,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 46.509,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 46.712,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 46.914,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 47.116,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 47.318,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 47.52,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 47.723,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 47.926,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 48.129,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 48.332,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 48.534,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 48.736,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 48.939,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 49.141,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 49.343,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 49.544,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 49.747,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 49.949,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 50.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 50.354,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 50.557,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 50.759,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 50.962,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 51.164,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 51.367,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 51.569,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 51.772,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 51.974,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 52.177,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 52.379,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 52.582,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 52.785,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 52.988,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 53.19,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 53.392,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 53.595,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 53.797,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 54.0,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 54.203,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 54.405,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 54.608,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 54.811,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 55.014,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 55.216,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 55.418,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 55.621,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 55.823,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 56.026,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 56.228,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 56.43,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 56.633,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 56.835,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 57.037,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 57.24,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 57.443,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 57.646,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 57.848,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 58.051,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 58.253,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 58.456,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 58.658,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 58.862,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 59.064,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 59.265,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 59.467,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 59.67,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 59.872,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 60.075,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 60.277,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 60.479,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 60.681,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 60.884,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 61.086,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 61.288,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 61.491,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 61.694,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 61.896,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 62.099,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 62.302,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 62.504,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 62.707,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 62.909,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 63.111,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 63.314,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 63.516,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 63.718,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 63.921,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 64.123,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 64.326,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 64.528,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 64.73,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 64.932,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 65.135,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 65.337,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 65.54,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 65.742,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 65.945,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 66.147,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 66.35,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 66.552,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 66.755,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 66.958,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 67.161,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 67.363,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 67.567,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 67.769,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 67.972,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 68.174,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 68.376,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 68.579,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 68.781,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 68.984,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 69.186,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 69.389,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 69.592,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 69.794,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 69.997,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 70.199,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 70.401,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 70.604,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 70.806,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 71.009,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 71.211,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 71.413,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 71.616,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 71.818,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 72.021,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 72.223,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 72.425,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 72.628,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 72.829,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 73.031,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 73.234,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 73.436,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 73.638,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 73.841,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 74.044,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 74.246,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 74.449,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 74.652,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 74.803,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 74.955,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 75.107,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 75.258,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 75.911,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 76.062,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 76.715,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 76.866,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 77.519,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 77.671,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 77.823,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 77.986,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 78.138,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 78.289,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 78.44,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 78.44,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 79.598,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 79.75,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 79.952,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 80.154,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 80.356,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 80.558,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 80.76,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 80.963,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 81.166,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 81.369,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 81.571,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 81.774,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 81.976,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 82.179,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 82.381,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 82.583,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 82.785,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 82.988,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 83.19,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 83.392,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 83.595,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 83.797,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 84.0,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 84.203,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 84.405,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 84.607,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 84.81,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 85.012,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 85.214,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 85.417,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 85.619,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 85.821,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 86.024,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 86.226,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 86.429,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 86.631,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 86.834,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 87.037,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 87.24,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 87.442,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 87.645,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 87.847,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 88.05,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 88.253,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 88.456,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 88.673,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 88.876,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 89.079,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 89.282,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 89.484,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 89.687,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 89.889,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 90.092,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 90.295,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 90.497,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 90.699,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 90.9,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 91.102,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 91.302,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 91.504,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 91.706,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 91.909,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 92.111,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 92.314,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 92.516,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 92.719,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 92.921,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 93.124,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 93.327,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 93.529,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 93.732,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 93.934,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 94.136,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 94.338,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 94.54,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 94.743,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 94.945,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 95.147,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 95.35,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 95.552,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 95.754,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 95.957,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 96.159,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 96.361,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 96.564,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 96.766,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 96.969,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 97.171,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 97.373,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 97.575,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 97.778,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 97.98,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 98.182,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 98.384,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 98.587,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 98.789,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 98.992,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 99.194,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 99.397,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 99.599,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 99.802,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 100.004,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 100.207,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 100.409,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 100.611,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 100.813,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 101.015,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 101.218,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 101.42,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 101.622,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 101.825,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 102.028,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 102.23,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 102.433,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 102.634,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 102.836,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 103.039,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 103.241,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 103.443,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 103.645,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 103.848,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 104.05,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 104.253,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 104.456,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 104.658,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 104.86,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 105.062,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 105.264,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 105.467,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 105.669,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 105.872,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 106.074,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 106.277,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 106.48,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 106.683,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 106.834,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 106.986,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 107.138,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 107.289,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 107.942,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 108.094,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 108.747,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 108.899,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 109.551,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 109.702,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 109.854,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 110.006,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 110.158,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 110.31,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 110.462,
+      "envoye": "1TP?",
+      "recu": "9999"
+    },
+    {
+      "t": 110.462,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 111.618,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 111.769,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 111.971,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 112.174,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 112.376,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 112.579,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 112.78,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 112.983,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 113.185,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 113.388,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 113.59,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 113.793,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 113.995,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 114.198,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 114.401,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 114.603,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 114.805,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 115.008,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 115.21,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 115.412,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 115.615,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 115.817,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 116.019,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 116.222,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 116.439,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 116.642,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 116.844,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 117.046,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 117.249,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 117.452,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 117.654,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 117.856,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 118.058,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 118.261,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 118.464,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 118.666,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 118.869,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 119.074,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 119.276,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 119.478,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 119.681,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 119.883,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 120.086,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 120.288,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 120.491,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 120.693,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 120.896,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 121.098,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 121.301,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 121.502,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 121.705,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 121.907,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 122.11,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 122.312,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 122.515,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 122.718,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 122.92,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 123.123,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 123.325,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 123.528,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 123.73,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 123.933,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 124.135,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 124.337,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 124.54,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 124.742,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 124.945,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 125.147,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 125.35,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 125.552,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 125.755,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 125.956,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 126.159,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 126.361,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 126.564,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 126.767,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 126.969,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 127.171,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 127.375,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 127.578,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 127.78,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 127.982,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 128.185,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 128.388,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 128.591,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 128.793,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 128.995,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 129.198,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 129.401,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 129.603,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 129.805,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 130.008,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 130.209,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 130.412,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 130.614,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 130.816,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 131.018,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 131.221,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 131.423,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 131.626,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 131.828,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 132.031,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 132.233,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 132.435,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 132.638,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 132.841,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 133.043,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 133.245,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 133.448,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 133.65,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 133.853,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 134.055,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 134.258,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 134.46,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 134.663,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 134.865,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 135.067,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 135.27,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 135.472,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 135.674,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 135.877,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 136.079,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 136.281,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 136.483,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 136.686,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 136.888,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 137.091,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 137.293,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 137.496,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 137.698,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 137.9,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 138.102,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 138.305,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 138.508,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 138.71,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 138.912,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 139.115,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 139.318,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 139.521,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 139.723,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 139.926,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 140.128,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 140.33,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 140.532,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 140.735,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 140.938,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 141.141,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 141.344,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 141.546,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 141.698,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 141.85,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 142.001,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 142.153,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 142.805,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 142.956,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 143.609,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 143.761,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 144.413,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 144.564,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 144.715,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 144.869,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 145.02,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 145.172,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 145.324,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 145.324,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 146.477,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 146.628,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 146.83,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 147.032,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 147.235,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 147.438,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 147.64,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 147.843,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 148.045,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 148.248,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 148.45,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 148.653,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 148.855,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 149.057,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 149.259,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 149.462,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 149.665,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 149.867,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 150.069,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 150.271,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 150.473,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 150.676,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 150.878,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 151.08,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 151.282,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 151.483,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 151.684,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 151.886,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 152.088,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 152.291,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 152.495,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 152.697,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 152.9,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 153.103,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 153.305,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 153.507,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 153.71,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 153.913,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 154.115,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 154.318,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 154.521,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 154.724,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 154.926,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 155.129,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 155.331,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 155.534,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 155.737,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 155.939,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 156.141,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 156.343,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 156.545,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 156.748,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 156.95,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 157.153,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 157.355,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 157.557,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 157.76,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 157.963,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 158.166,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 158.369,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 158.571,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 158.773,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 158.975,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 159.177,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 159.379,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 159.581,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 159.784,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 159.986,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 160.189,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 160.392,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 160.594,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 160.797,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 160.998,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 161.2,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 161.402,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 161.604,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 161.806,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 162.008,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 162.211,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 162.414,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 162.616,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 162.818,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 163.021,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 163.223,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 163.426,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 163.629,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 163.832,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 164.034,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 164.237,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 164.439,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 164.642,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 164.844,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 165.046,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 165.249,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 165.452,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 165.654,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 165.857,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 166.059,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 166.261,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 166.463,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 166.666,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 166.869,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 167.071,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 167.273,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 167.476,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 167.679,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 167.882,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 168.083,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 168.285,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 168.487,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 168.689,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 168.892,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 169.094,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 169.297,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 169.5,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 169.703,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 169.906,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 170.108,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 170.311,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 170.529,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 170.731,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 170.933,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 171.135,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 171.337,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 171.539,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 171.741,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 171.943,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 172.145,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 172.348,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 172.55,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 172.753,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 172.955,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 173.158,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 173.36,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 173.512,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 173.663,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 173.815,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 173.967,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 174.619,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 174.771,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 175.424,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 175.575,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 176.228,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 176.379,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 176.531,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 176.683,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 176.834,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 176.986,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 177.137,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 177.137,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 178.303,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 178.454,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 178.657,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 178.859,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 179.062,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 179.265,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 179.466,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 179.667,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 179.869,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 180.071,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 180.273,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 180.475,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 180.679,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 180.881,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 181.083,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 181.284,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 181.486,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 181.689,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 181.892,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 182.094,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 182.297,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 182.5,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 182.703,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 182.906,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 183.109,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 183.311,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 183.513,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 183.716,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 183.918,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 184.12,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 184.323,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 184.526,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 184.729,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 184.931,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 185.133,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 185.336,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 185.538,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 185.74,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 185.942,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 186.145,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 186.347,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 186.549,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 186.751,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 186.953,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 187.155,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 187.358,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 187.56,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 187.763,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 187.966,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 188.168,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 188.371,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 188.573,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 188.776,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 188.979,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 189.18,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 189.383,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 189.585,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 189.787,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 189.99,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 190.192,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 190.395,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 190.597,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 190.8,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 191.003,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 191.205,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 191.408,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 191.61,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 191.813,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 192.015,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 192.217,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 192.42,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 192.622,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 192.825,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 193.027,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 193.23,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 193.432,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 193.634,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 193.837,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 194.039,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 194.242,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 194.444,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 194.647,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 194.849,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 195.052,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 195.253,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 195.456,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 195.659,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 195.861,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 196.064,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 196.266,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 196.468,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 196.671,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 196.874,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 197.076,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 197.278,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 197.48,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 197.683,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 197.885,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 198.087,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 198.29,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 198.492,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 198.694,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 198.897,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 199.099,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 199.301,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 199.503,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 199.706,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 199.909,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 200.112,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 200.314,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 200.516,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 200.719,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 200.921,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 201.124,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 201.326,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 201.529,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 201.731,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 201.933,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 202.135,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 202.337,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 202.539,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 202.741,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 202.943,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 203.145,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 203.348,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 203.55,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 203.752,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 203.955,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 204.157,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 204.36,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 204.562,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 204.765,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 204.967,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 205.169,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 205.372,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 205.575,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 205.777,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 205.98,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 206.182,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 206.384,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 206.587,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 206.789,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 206.992,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 207.194,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 207.397,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 207.599,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 207.801,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 208.004,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 208.206,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 208.358,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 208.509,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 208.661,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 208.813,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 209.466,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 209.618,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 210.27,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 210.421,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 211.074,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 211.225,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 211.377,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 211.54,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 211.54,
+      "envoye": "1MM1"
+    },
+    {
+      "t": 212.692,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 213.345,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 213.497,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 214.149,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 214.301,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 214.954,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 215.105,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 215.758,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 215.91,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 216.072,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 216.223,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 216.375,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 216.526,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 216.526,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 217.69,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 217.841,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 218.044,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 218.245,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 218.448,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 218.65,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 218.853,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 219.055,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 219.258,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 219.461,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 219.663,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 219.865,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 220.068,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 220.27,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 220.472,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 220.675,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 220.877,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 221.08,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 221.282,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 221.485,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 221.687,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 221.889,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 222.092,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 222.295,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 222.497,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 222.7,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 222.902,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 223.104,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 223.305,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 223.508,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 223.71,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 223.912,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 224.115,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 224.318,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 224.52,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 224.723,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 224.925,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 225.127,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 225.329,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 225.532,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 225.734,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 225.936,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 226.139,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 226.342,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 226.544,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 226.747,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 226.95,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 227.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 227.354,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 227.557,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 227.758,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 227.961,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 228.164,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 228.367,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 228.569,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 228.772,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 228.974,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 229.177,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 229.379,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 229.582,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 229.785,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 229.987,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 230.19,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 230.392,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 230.594,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 230.797,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 230.999,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 231.199,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 231.4,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 231.602,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 231.805,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 232.008,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 232.209,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 232.412,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 232.614,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 232.817,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 233.019,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 233.221,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 233.424,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 233.626,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 233.829,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 234.032,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 234.235,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 234.438,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 234.64,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 234.842,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 235.045,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 235.248,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 235.45,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 235.653,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 235.855,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 236.057,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 236.26,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 236.463,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 236.665,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 236.867,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 237.07,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 237.272,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 237.474,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 237.676,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 237.878,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 238.08,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 238.283,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 238.485,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 238.688,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 238.89,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 239.092,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 239.294,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 239.496,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 239.699,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 239.902,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 240.105,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 240.307,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 240.509,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 240.712,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 240.915,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 241.117,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 241.32,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 241.523,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 241.726,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 241.928,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 242.131,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 242.334,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 242.536,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 242.739,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 242.941,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 243.144,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 243.346,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 243.549,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 243.751,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 243.954,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 244.157,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 244.36,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 244.511,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 244.663,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 244.814,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 244.966,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 245.618,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 245.77,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 246.422,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 246.574,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 247.226,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 247.378,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 247.529,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 247.68,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 247.832,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 247.982,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 248.137,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 248.137,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 249.285,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 249.436,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 249.638,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 249.839,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 250.039,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 250.241,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 250.442,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 250.643,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 250.845,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 251.046,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 251.247,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 251.449,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 251.65,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 251.851,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 252.053,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 252.254,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 252.455,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 252.657,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 252.858,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 253.059,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 253.26,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 253.461,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 253.662,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 253.863,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 254.064,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 254.265,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 254.466,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 254.668,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 254.869,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 255.07,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 255.271,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 255.472,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 255.673,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 255.875,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 256.076,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 256.277,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 256.479,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 256.68,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 256.882,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 257.083,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 257.284,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 257.485,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 257.686,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 257.887,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 258.088,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 258.289,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 258.49,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 258.691,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 258.892,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 259.093,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 259.294,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 259.495,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 259.696,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 259.898,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 260.098,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 260.3,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 260.501,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 260.702,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 260.903,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 261.104,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 261.305,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 261.506,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 261.707,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 261.908,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 262.109,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 262.31,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 262.511,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 262.712,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 262.913,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 263.114,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 263.316,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 263.517,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 263.718,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 263.92,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 264.121,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 264.322,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 264.523,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 264.724,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 264.925,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 265.126,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 265.328,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 265.529,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 265.73,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 265.931,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 266.132,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 266.334,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 266.535,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 266.736,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 266.938,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 267.139,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 267.34,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 267.541,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 267.742,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 267.943,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 268.144,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 268.345,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 268.547,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 268.748,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 268.949,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 269.15,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 269.351,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 269.552,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 269.753,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 269.955,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 270.156,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 270.357,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 270.558,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 270.759,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 270.96,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 271.161,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 271.362,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 271.563,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 271.765,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 271.966,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 272.167,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 272.368,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 272.569,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 272.771,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 272.972,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 273.173,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 273.374,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 273.575,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 273.777,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 273.978,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 274.18,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 274.381,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 274.582,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 274.783,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 274.984,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 275.186,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 275.387,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 275.588,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 275.789,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 275.991,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 276.192,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 276.393,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 276.594,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 276.795,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 276.996,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 277.197,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 277.398,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 277.6,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 277.801,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 278.002,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 278.203,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 278.405,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 278.606,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 278.808,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 279.009,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 279.21,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 279.361,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 279.512,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 279.662,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 279.813,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 280.464,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 280.615,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 281.266,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 281.417,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 282.069,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 282.219,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 282.37,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 282.524,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 282.674,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 282.825,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 282.976,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 282.976,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 284.135,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 284.285,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 284.487,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 284.688,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 284.889,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 285.09,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 285.291,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 285.492,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 285.693,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 285.894,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 286.095,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 286.296,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 286.497,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 286.699,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 286.9,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 287.1,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 287.301,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 287.503,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 287.704,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 287.906,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 288.107,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 288.308,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 288.509,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 288.711,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 288.912,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 289.113,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 289.314,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 289.515,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 289.716,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 289.917,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 290.118,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 290.32,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 290.523,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 290.725,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 290.927,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 291.128,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 291.329,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 291.53,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 291.731,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 291.933,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 292.135,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 292.337,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 292.538,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 292.739,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 292.94,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 293.141,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 293.342,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 293.543,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 293.745,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 293.946,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 294.147,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 294.348,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 294.549,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 294.75,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 294.951,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 295.153,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 295.354,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 295.556,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 295.758,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 295.959,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 296.16,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 296.361,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 296.561,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 296.763,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 296.964,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 297.164,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 297.365,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 297.566,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 297.767,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 297.969,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 298.169,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 298.37,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 298.571,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 298.773,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 298.974,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 299.175,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 299.376,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 299.577,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 299.778,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 299.979,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 300.181,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 300.382,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 300.583,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 300.784,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 300.985,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 301.186,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 301.387,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 301.589,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 301.79,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 301.991,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 302.192,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 302.394,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 302.595,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 302.796,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 302.997,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 303.198,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 303.399,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 303.601,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 303.802,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 304.003,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 304.204,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 304.405,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 304.606,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 304.807,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 305.011,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 305.211,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 305.413,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 305.614,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 305.815,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 306.017,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 306.22,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 306.421,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 306.622,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 306.823,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 307.024,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 307.225,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 307.426,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 307.627,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 307.829,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 308.03,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 308.231,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 308.432,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 308.637,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 308.838,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 309.039,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 309.241,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 309.442,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 309.643,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 309.844,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 310.045,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 310.246,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 310.448,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 310.649,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 310.85,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 311.001,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 311.152,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 311.302,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 311.453,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 312.104,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 312.255,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 312.906,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 313.057,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 313.708,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 313.858,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 314.009,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 314.16,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 314.311,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 314.462,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 314.612,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 314.612,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 315.77,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 315.921,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 316.122,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 316.323,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 316.525,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 316.726,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 316.927,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 317.128,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 317.329,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 317.53,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 317.731,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 317.932,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 318.133,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 318.334,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 318.536,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 318.737,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 318.938,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 319.139,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 319.341,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 319.542,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 319.743,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 319.944,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 320.145,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 320.346,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 320.548,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 320.749,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 320.95,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 321.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 321.353,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 321.554,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 321.755,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 321.957,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 322.158,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 322.359,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 322.56,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 322.761,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 322.962,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 323.163,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 323.364,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 323.566,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 323.767,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 323.968,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 324.17,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 324.371,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 324.572,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 324.773,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 324.975,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 325.177,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 325.378,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 325.579,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 325.78,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 325.981,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 326.182,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 326.384,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 326.586,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 326.788,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 326.991,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 327.193,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 327.395,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 327.596,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 327.797,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 327.999,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 328.2,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 328.401,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 328.602,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 328.803,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 329.004,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 329.205,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 329.407,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 329.609,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 329.81,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 330.011,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 330.212,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 330.413,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 330.614,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 330.815,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 331.016,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 331.217,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 331.418,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 331.619,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 331.82,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 332.021,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 332.223,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 332.425,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 332.626,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 332.828,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 333.029,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 333.23,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 333.431,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 333.633,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 333.833,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 334.035,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 334.235,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 334.436,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 334.637,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 334.838,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 335.039,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 335.24,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 335.441,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 335.642,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 335.843,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 336.044,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 336.245,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 336.447,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 336.648,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 336.86,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 337.062,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 337.263,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 337.463,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 337.664,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 337.865,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 338.067,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 338.268,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 338.469,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 338.67,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 338.871,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 339.072,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 339.273,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 339.475,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 339.677,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 339.878,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 340.08,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 340.281,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 340.482,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 340.683,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 340.884,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 341.085,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 341.286,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 341.487,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 341.688,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 341.889,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 342.09,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 342.291,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 342.492,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 342.693,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 342.894,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 343.095,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 343.296,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 343.497,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 343.698,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 343.899,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 344.1,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 344.301,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 344.502,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 344.704,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 344.905,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 345.106,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 345.308,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 345.509,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 345.71,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 345.861,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 346.012,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 346.163,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 346.313,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 346.965,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 347.115,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 347.766,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 347.917,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 348.568,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 348.719,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 348.869,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 349.023,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 349.173,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 349.324,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 349.475,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 349.475,
+      "envoye": "1PA10000"
+    },
+    {
+      "t": 350.64,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 350.79,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 350.991,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 351.192,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 351.393,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 351.594,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 351.795,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 351.996,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 352.197,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 352.398,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 352.599,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 352.8,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 353.002,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 353.203,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 353.404,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 353.605,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 353.806,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 354.007,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 354.208,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 354.409,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 354.61,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 354.811,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 355.027,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 355.228,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 355.429,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 355.63,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 355.831,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 356.033,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 356.233,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 356.434,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 356.635,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 356.837,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 357.038,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 357.239,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 357.44,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 357.641,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 357.842,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 358.043,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 358.244,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 358.445,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 358.646,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 358.847,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 359.048,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 359.249,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 359.45,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 359.651,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 359.852,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 360.053,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 360.254,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 360.455,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 360.656,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 360.857,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 361.058,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 361.259,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 361.46,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 361.661,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 361.862,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 362.064,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 362.265,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 362.466,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 362.667,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 362.868,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 363.069,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 363.27,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 363.471,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 363.672,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 363.874,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 364.075,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 364.276,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 364.477,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 364.678,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 364.879,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 365.081,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 365.282,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 365.483,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 365.684,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 365.885,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 366.086,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 366.287,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 366.488,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 366.689,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 366.891,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 367.092,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 367.293,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 367.494,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 367.695,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 367.896,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 368.097,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 368.298,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 368.5,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 368.701,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 368.902,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 369.103,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 369.304,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 369.505,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 369.706,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 369.907,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 370.108,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 370.309,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 370.51,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 370.711,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 370.912,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 371.113,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 371.315,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 371.516,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 371.718,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 371.919,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 372.12,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 372.321,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 372.523,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 372.723,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 372.924,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 373.126,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 373.327,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 373.528,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 373.729,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 373.931,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 374.132,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 374.333,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 374.534,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 374.735,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 374.936,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 375.138,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 375.338,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 375.539,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 375.741,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 375.942,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 376.143,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 376.345,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 376.547,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 376.748,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 376.95,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 377.152,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 377.355,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 377.506,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 377.658,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 377.81,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 377.962,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 378.614,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 378.766,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 379.419,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 379.571,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 380.222,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 380.374,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 380.526,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 380.678,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 380.829,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 380.981,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 381.133,
+      "envoye": "1TP?",
+      "recu": "10000"
+    },
+    {
+      "t": 381.133,
+      "envoye": "1PA0"
+    },
+    {
+      "t": 382.287,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 382.439,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 382.641,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 382.844,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 383.045,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 383.247,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 383.45,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 383.652,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 383.854,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 384.057,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 384.259,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 384.462,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 384.665,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 384.867,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 385.069,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 385.271,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 385.474,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 385.676,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 385.878,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 386.081,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 386.283,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 386.486,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 386.688,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 386.891,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 387.093,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 387.296,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 387.498,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 387.701,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 387.903,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 388.105,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 388.308,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 388.509,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 388.712,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 388.915,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 389.117,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 389.32,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 389.522,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 389.725,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 389.927,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 390.13,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 390.332,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 390.534,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 390.735,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 390.937,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 391.139,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 391.342,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 391.544,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 391.746,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 391.949,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 392.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 392.354,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 392.556,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 392.759,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 392.962,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 393.165,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 393.368,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 393.57,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 393.773,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 393.976,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 394.178,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 394.38,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 394.582,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 394.785,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 394.987,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 395.191,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 395.393,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 395.596,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 395.799,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 396.002,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 396.204,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 396.407,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 396.61,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 396.812,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 397.015,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 397.218,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 397.421,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 397.624,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 397.826,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 398.028,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 398.23,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 398.433,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 398.635,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 398.838,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 399.04,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 399.243,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 399.446,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 399.649,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 399.851,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 400.053,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 400.255,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 400.456,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 400.659,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 400.861,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 401.064,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 401.266,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 401.469,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 401.672,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 401.874,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 402.076,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 402.279,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 402.482,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 402.684,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 402.887,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 403.09,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 403.292,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 403.495,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 403.696,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 403.899,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 404.101,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 404.303,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 404.506,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 404.708,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 404.91,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 405.113,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 405.316,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 405.518,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 405.72,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 405.923,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 406.126,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 406.328,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 406.53,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 406.733,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 406.934,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 407.137,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 407.339,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 407.542,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 407.745,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 407.948,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 408.151,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 408.353,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 408.555,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 408.758,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 408.961,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 409.163,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 409.366,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 409.568,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 409.77,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 409.972,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 410.174,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 410.377,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 410.58,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 410.783,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 410.985,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 411.188,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 411.39,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 411.593,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 411.796,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 411.998,
+      "envoye": "1MD?",
+      "recu": "0"
+    },
+    {
+      "t": 412.2,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 412.352,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 412.504,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 412.656,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 412.807,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 413.46,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 413.612,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 414.264,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 414.415,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 415.066,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 415.218,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 415.37,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 415.37,
+      "envoye": "1MM0"
+    },
+    {
+      "t": 416.523,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 416.524,
+      "envoye": "1MM0"
+    },
+    {
+      "t": 417.677,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 417.677,
+      "envoye": "1DB0"
+    },
+    {
+      "t": 418.838,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 418.989,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 418.989,
+      "envoye": "1VA2000"
+    },
+    {
+      "t": 420.143,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 420.143,
+      "envoye": "1AC100000"
+    },
+    {
+      "t": 421.297,
+      "envoye": "TB?",
+      "recu": "0, NO ERROR DETECTED"
+    },
+    {
+      "t": 421.448,
+      "envoye": "*IDN?",
+      "recu": "New_Focus 8743-CL v4.06 01/19/17 13097"
+    },
+    {
+      "t": 421.6,
+      "envoye": "ZZ?",
+      "recu": "0"
+    },
+    {
+      "t": 421.751,
+      "envoye": "1ZH?",
+      "recu": "4"
+    },
+    {
+      "t": 421.903,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 422.055,
+      "envoye": "1MM?",
+      "recu": "0"
+    },
+    {
+      "t": 422.207,
+      "envoye": "1QM?",
+      "recu": "3"
+    },
+    {
+      "t": 422.358,
+      "envoye": "1TP?",
+      "recu": "0"
+    },
+    {
+      "t": 422.51,
+      "envoye": "1SN?",
+      "recu": "1"
+    },
+    {
+      "t": 422.662,
+      "envoye": "1MD?",
+      "recu": "1"
+    },
+    {
+      "t": 422.814,
+      "envoye": "1VA?",
+      "recu": "2000"
+    },
+    {
+      "t": 422.966,
+      "envoye": "1AC?",
+      "recu": "100000"
+    },
+    {
+      "t": 423.117,
+      "envoye": "PH?",
+      "recu": "56"
+    }
+  ]
+}
