@@ -1,9 +1,15 @@
 # Cahier de manip
 
-## 15/10/2026
+## Octobre 2026
 
-### Ecriture du driver du 8743-CL
+### 15/10/2026
 
-[Importer le driver sur un autre PC](Drivers/Newport_8743-CL/Installation_driver_autre_PC)
+- [Ecriture du driver du 8743-CL](Drivers/Newport_8743-CL)
+
+### 16/10/2026
+
+- organisation du git
+
+
 
 
