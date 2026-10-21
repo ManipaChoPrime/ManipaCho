@@ -16,6 +16,7 @@
 ### 21/10/2026
 
 - Yannick part en vacance : [discussion sur le setup](Discussion_Yannick/21_10_2026.md) avant qu'il parte
+    - [Recherche d'un DBR dans l'IR](Mes_recherches/Bragg/Recherche%20miroir%20de%20Bragg.md)
 
 
 
