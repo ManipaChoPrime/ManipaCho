@@ -1,0 +1,26 @@
+# 21_10_2026
+
+## Yannick part en vacance : ce que je dois faire pendant la semaine
+
+### Rechercher si ça existe :
+
+- Steering mirror qui fonctionne sous vide pour faire un 4f miniature (chez Thorabs ou Newport).
+- LED blanche pourrie à mettre dedans pour faire de l'imagerie. 
+- On va bosser dans l'IR : 1280 nm
+    - Existe-t-il des Bragg ( 1/2" de diamètre, 3 mm, 0° d'angle, on bosse en "transmission") à cette longueur d'onde ? Il faut une reflexion à 99.95 %
+    - Regarder aussi les highpass / longpass.
+    - Peut aussi s'appeller Dielectric mirrors. 
+
+### Code :
+
+- Tenter de faire fonctionner le moteur 8311 quand il pousse sur la platine :
+    - Comment est l'erreur ? 
+    - Est-ce que ça marche toujours ?
+
+### Théorie :
+
+- Se remettre dans la théorie : 
+    - [Auffèves 2010](../Articles/Auffeve_2010.pdf) : Reprendre le fonctionnement de la cavité + les notations
+    - [Choi 2017](../Articles/Choi_2017.pdf) : La théorie sur la réduction du volume de mode en cavité
+    - [ANR_Delicacy](../Articles/ANR_Delicacy.pdf) : Mon sujet de thèse
+    - [Input and output](../Articles/Gardiner%20et%20Collett%20-%201985%20-%20Input%20and%20output%20in%20damped%20quantum%20systems%20Quantum%20stochastic%20differential%20equations%20and%20the%20master.pdf) : Si vraiment je m'ennuie et que je ne sais plus quoi faire
