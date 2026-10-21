@@ -13,6 +13,10 @@
 
 - organisation du git
 
+### 21/10/2026
+
+- Yannick part en vacance : [discussion sur le setup](Discussion_Yannick/21_10_2026.md) avant qu'il parte
+
 
 
 
