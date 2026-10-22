@@ -8,4 +8,8 @@
   <img src="image.png" width="300">
 </div>
 
-Sur le schéma, l'angle max accepté par la lentille est $\theta_M$ 
+- Sur le schéma, l'angle max accepté par la lentille est $\theta_M$. l'indice du milieu dans lequel le point objet est est $n_1$.
+
+- La formule qui donne l'ouverture numérique est alors $N.A = n_{1} sin(\theta_M)$
+
+- L'ouverture numérique ne tient pas compte des caractéristiques de la lentille. Elle peut être asphérique ou sphérique, et avoir la même ouverture numérique sur la papier, quand bien même l'asphérique accepte plus de rayon.
