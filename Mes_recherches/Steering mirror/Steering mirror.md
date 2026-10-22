@@ -7,3 +7,19 @@
 - Les caractéristiques données sont (pour le N-480.210CV par exemple):
     - Un pas angulaire de 0.5 $\mu$ rad
     - Une course de $\pm$ 8°
+
+- On veut savoir les caractéristiques du scan que ça représenterait.
+    - On appelle la distance entre le "steering mirror" et l'échantillon L
+    - On appelle le pas angulaire $\Delta \theta$
+    - On appelle le pas du scan résultant $\Delta x$
+
+Voici le schéma de la situation :
+
+![alt text](image.png)
+
+- Pas de $\Delta \theta$ du miroir correspond à un pas effectif du rayon de $2\Delta \theta$. On a alors :
+    - $\Delta x = L \cdot tan(2\Delta \theta)$
+    - Etant donné les faibles angles, on a l'approxiamtion $tan(\theta) \approx \theta$ :
+        -$\Delta x = L \cdot 2\Delta \theta$ soit $\Delta x = L \cdot 2\Delta \theta$
+    - $\Delta x \approx 0.1 \cdot 0.5x10^{-6}$
+    - $\Delta x \approx 50 nm$
