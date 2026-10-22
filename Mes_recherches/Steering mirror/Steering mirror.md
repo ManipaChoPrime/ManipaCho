@@ -47,3 +47,42 @@ Voici le schéma de la situation :
 
 - On aurait une course de 28 mm dans chaque direction.
 
+### Problème majeur
+
+Le problème de ce type de montage est le fonctionnement en **stick and slip** de ces moteurs. 
+
+## Autre possibilité : S-330 Fast Piezo Tip/Tilt Platform
+
+[Lien](https://www.pifrance.fr/fr/products/nanopositioning-piezo-flexure-stages/piezo-flexure-tilting-mirrors/s-330-fast-piezo-tiptilt-platform-300700)
+
+- Le modèle S-330.8SL / .8SH possède :
+    - Une compatbilité vide (10$^{-10}$ mbar)
+    - Une course de 10 mrad (donc le faisceau 20 mrad)
+    - Un pas de 20 nrad minimum
+    - Une "position absolue", avec en tout cas une boucle fermée !
+    - c'est conçu pour faire du scanning
+    - tension analogique et courbure continue ! Comme le fonctionnement des piezotubes
+    - spécifié pour miroir jusqu'à 50 mm de dimètre.
+
+- 20 mrad ça donne 4mm de scan si y'a 10cm de distance entre le miroir et l'échantillon.
+
+- Le vrai problème reste le prix (et l'alimentation). J'ai pas de devis mais ca va faire 10 000 euros.
+- Et la précision : 20 nrad ne sert absolument pas ici, par rapport à la limite de diffraction.
+- Avec un pas de 1 urad et 10cm entre miroir et échantillion, on scanne à 200 nm (par rapport à 1300 nm de spot en gros).
+
+- [Devis envoyé](https://webmail.phys.ens.fr/SOGo/so/jais/Mail/view#!/Mail/0/INBOX/390) (S-330.8SH et E-727.3SDAP).
+
+## Autre possibililté : S-335.2SH
+
+[Lien](https://www.pifrance.fr/fr/products/nanopositioning-piezo-flexure-stages/piezo-flexure-tilting-mirrors/s-335-piezo-tiptilt-platform-300711)
+
+[Vacuum](https://motionsystems.pi-usa.us/category/irrors-active-optics-multi-axis-tip-tilt-platforms) compatible :
+
+![alt text](image-2.png)
+
+- Caractéristiques :
+    - 70 mrad de déviation du faisceau (ça fait 14 mm).
+    - boucle fermée
+    - se pilote avec le E-727.3 SD
+
+- [Devis envoyé](https://webmail.phys.ens.fr/SOGo/so/jais/Mail/view#!/Mail/0/INBOX/389) (E-727.3SD et S-335.2SH).
