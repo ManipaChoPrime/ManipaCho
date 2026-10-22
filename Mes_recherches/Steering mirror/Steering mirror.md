@@ -6,6 +6,12 @@
 
 [Lien pour le miroir](https://www.pifrance.fr/fr/products/linear-actuators/piezomike-for-long-term-stability/n-480-high-precision-kinematic-mirror-mount-1000171)
 
+Photo du miroir :
+
+<div align="center">
+  <img src="image-1.png" width="300">
+</div>
+
 - Les caractéristiques données sont (pour le N-480.210CV par exemple):
     - Un pas angulaire de 0.5 $\mu$ rad
     - Une course de $\pm$ 8°
