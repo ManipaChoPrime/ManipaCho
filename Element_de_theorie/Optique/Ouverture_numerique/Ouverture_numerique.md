@@ -12,4 +12,7 @@
 
 - La formule qui donne l'ouverture numérique est alors $N.A = n_{1} sin(\theta_M)$
 
-- L'ouverture numérique ne tient pas compte des caractéristiques de la lentille. Elle peut être asphérique ou sphérique, et avoir la même ouverture numérique sur la papier, quand bien même l'asphérique accepte plus de rayon.
+- L'ouverture numérique ne tient pas compte des caractéristiques de la lentille :
+
+    - A ouverture numérique donnée, une lentille asphérique aura moins d'aberrations qu'une lentille sphérique.
+    - La différence sera surtout à grande ouverture numérique, où la lentille asphérique marquera une vraie différence en ayant moins d'aberrations sur les rayons marginaux.
