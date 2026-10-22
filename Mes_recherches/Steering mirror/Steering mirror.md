@@ -32,7 +32,7 @@ Voici le schéma de la situation :
 
 - Quel est le nombre $N$ de pas ? 
     - La course du miroir est de $\pm$ 8°, avec des pas de 0,5 $\mu$ rad $\approx$ $3x10^{-5}$°
-    - N $\approx$ $16/3*10^{-5}$ $\approx 5,6*10^{5}$
+    - N $\approx 16/3*10^{-5} \approx 5,6*10^{5}$
 
 - Quelle est la distance couverte par le scan dans une direction ?
     - Distance = distance pas * nombre de pas
