@@ -20,6 +20,6 @@ Voici le schéma de la situation :
 - Pas de $\Delta \theta$ du miroir correspond à un pas effectif du rayon de $2\Delta \theta$. On a alors :
     - $\Delta x = L \cdot tan(2\Delta \theta)$
     - Etant donné les faibles angles, on a l'approxiamtion $tan(\theta) \approx \theta$ :
-        -$\Delta x = L \cdot 2\Delta \theta$ soit $\Delta x = L \cdot 2\Delta \theta$
+        - $\Delta x = L \cdot 2\Delta \theta$ soit $\Delta x = L \cdot 2\Delta \theta$
     - $\Delta x \approx 0.1 \cdot 0.5x10^{-6}$
     - $\Delta x \approx 50 nm$
