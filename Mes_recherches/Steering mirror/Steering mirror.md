@@ -2,6 +2,8 @@
 
 ## Le N-480 High-Precision Kinematic Mirror Mount de chez PI
 
+### Quel serait le pas du scan ?
+
 [Lien pour le miroir](https://www.pifrance.fr/fr/products/linear-actuators/piezomike-for-long-term-stability/n-480-high-precision-kinematic-mirror-mount-1000171)
 
 - Les caractéristiques données sont (pour le N-480.210CV par exemple):
@@ -21,5 +23,19 @@ Voici le schéma de la situation :
     - $\Delta x = L \cdot tan(2\Delta \theta)$
     - Etant donné les faibles angles, on a l'approxiamtion $tan(\theta) \approx \theta$ :
         - $\Delta x = L \cdot 2\Delta \theta$ soit $\Delta x = L \cdot 2\Delta \theta$
-    - $\Delta x \approx 0.1 \cdot 0.5x10^{-6}$
+    - $\Delta x \approx 0,1 \cdot 0,5x10^{-6}$
     - $\Delta x \approx 50 nm$
+
+- On aurait un pas de 50 nm.
+
+### Quelle serait la course du scan ?
+
+- Quel est le nombre $N$ de pas ? 
+    - La course du miroir est de $\pm$ 8°, avec des pas de 0,5 $\mu$ rad $\approx$ $3x10^{-5}°$
+    - N $\approx$ $16/3x10^{-5}$ $\approx 5,6x10^{5}$
+
+- Quelle est la distance couverte par le scan dans une direction ?
+    - Distance = distance pas * nombre de pas
+    - $L_{SCAN} = 50x10^{-9} * 5,6x10^5$
+    - $L_{SCAN} = 28$ mm
+

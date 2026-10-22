@@ -29,6 +29,8 @@
 - Création d'un [markdown](/Discussion_Yannick/Questions_pour_Yannick.md) pour les questions qu'il faudra que je pose à Yannick quand il revient
 - Création d'un [markdown](/Orders_et_setup/A_commander/Commandes_a_passer.md) pour se rappeler des choses intelligentes à acheter.
 
+- Recherche d'un [steering mirror](/Mes_recherches/Steering%20mirror/Steering%20mirror.md) qui pourrait fonctionner sous vide
+
 
 
 
