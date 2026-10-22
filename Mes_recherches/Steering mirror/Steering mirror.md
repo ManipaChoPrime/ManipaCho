@@ -23,7 +23,9 @@ Photo du miroir :
 
 Voici le schéma de la situation :
 
-![alt text](image.png)
+<div align="center">
+  <img src="image.png" width="300">
+</div>
 
 - Pas de $\Delta \theta$ du miroir correspond à un pas effectif du rayon de $2\Delta \theta$. On a alors :
     - $\Delta x = L \cdot tan(2\Delta \theta)$
@@ -53,6 +55,10 @@ Le problème de ce type de montage est le fonctionnement en **stick and slip** d
 
 ## Autre possibilité : S-330 Fast Piezo Tip/Tilt Platform
 
+<div align="center">
+  <img src="image-3.png" width="300">
+</div>
+
 [Lien](https://www.pifrance.fr/fr/products/nanopositioning-piezo-flexure-stages/piezo-flexure-tilting-mirrors/s-330-fast-piezo-tiptilt-platform-300700)
 
 - Le modèle S-330.8SL / .8SH possède :
@@ -72,7 +78,11 @@ Le problème de ce type de montage est le fonctionnement en **stick and slip** d
 
 - [Devis envoyé](https://webmail.phys.ens.fr/SOGo/so/jais/Mail/view#!/Mail/0/INBOX/390) (S-330.8SH et E-727.3SDAP).
 
-## Autre possibililté : S-335.2SH
+## Autre possibililté : S-335.2SH moins de précision et course plus grande
+
+<div align="center">
+  <img src="image-4.png" width="300">
+</div>
 
 [Lien](https://www.pifrance.fr/fr/products/nanopositioning-piezo-flexure-stages/piezo-flexure-tilting-mirrors/s-335-piezo-tiptilt-platform-300711)
 
