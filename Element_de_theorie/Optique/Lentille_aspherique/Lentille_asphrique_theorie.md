@@ -11,4 +11,6 @@ Voila la différence concrète dans la forme d'une asphérique et d'une sphériq
 
 -La forme et la correction qu'apporte une asphérique dépend d nombre de corrections polynomiales prise en compte dans sa conception : 
 
-![formule](image-2.png)
+<img src="image-2.png" width="300">
+
+Pour la lentille sur mesure de Yannick, 
