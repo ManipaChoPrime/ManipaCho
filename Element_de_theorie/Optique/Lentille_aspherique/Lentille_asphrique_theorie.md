@@ -13,6 +13,8 @@ Voila la différence concrète dans la forme d'une asphérique et d'une sphériq
 
 <img src="image-2.png" width="300">
 
+# Lentille sur mesure de Yannick
+
 Pour la lentille sur mesure de Yannick, voila le schéma global :
 
 <img src="image-3.png" width="300">
