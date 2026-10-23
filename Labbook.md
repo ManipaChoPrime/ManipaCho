@@ -31,6 +31,10 @@
 
 - Recherche d'un [steering mirror](/Mes_recherches/Steering%20mirror/Steering%20mirror.md) qui pourrait fonctionner sous vide
 
+### 23/10/2026
+
+- Test du 8311 avec et sans charge
+
 
 
 

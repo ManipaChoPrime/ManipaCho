@@ -21,9 +21,13 @@ On cherche un miroir diélectrique qui soit :
 
 - [Shortpass chez Layertec](https://www.layertec.de/en/shop/datasheet-doc/113787/1)
     - Il a tout ce qu'il faut celui la.
-    - La reflectivité est pas 99.95%, mais au dessus de 99.6% sur 1000-1500 nm. ![Reflectivité](image.png)
+    - La reflectivité est pas 99.95%, mais au dessus de 99.6% sur 1000-1500 nm. Elle est probablement trop grande sur la bande qui nous intéresse. Il n'est pas en stock, c'est équivalent à le commander sur mesure ![Reflectivité](image.png)
 
 - [Shortpass chez Edmund](https://www.edmundoptics.fr/p/1250nm-25mm-diameter-od-4-shortpass-filter/32134/) qui correspond parfaitmeent à ce qu'on veut :
     - diamètre 25,0 mm (prendre un support adapté)
     - épaisseur de 3,0 mm (super pour la lentille de Yannick)
-    - ![Une réflectivité](image-1.png) autour de 5 décades à 1300 nm (demander à Edmund une coubre mesurée, ici on a le blocking, mais pas la rélexion.)  
+    - ![Une réflectivité](image-1.png) 
+    - Une reflectivité autour de 5 décades à 1300 nm (demander à Edmund une coubre mesurée, ici on a le blocking, mais pas la rélexion.)  
+
+- Une demande de courbe de reflectivité plutôt que de blocking a été demandé à Edmund.
+

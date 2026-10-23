@@ -96,3 +96,12 @@ Le problème de ce type de montage est le fonctionnement en **stick and slip** d
     - se pilote avec le E-727.3 SD
 
 - [Devis envoyé](https://webmail.phys.ens.fr/SOGo/so/jais/Mail/view#!/Mail/0/INBOX/389) (E-727.3SD et S-335.2SH).
+
+## Autre possibilité : Faire un steering mirror en dehors de la boite 
+
+- On peut envisager de faire un steering mirror en dehors de la boite :
+    - On achete une vitre pour faire passer l'ecxitation
+    - Une autre en face pour la sortie
+    - On aligne l'excitation 
+
+    A completer
