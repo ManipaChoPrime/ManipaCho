@@ -1,16 +1,11 @@
-# ManipaCho
+# Test du 8311 
 
-## Labbook
+## Avec et sans charge :
 
-- Le fichier [Labbook.md](Labbook.md) contient le cahier de manip de la manip : c'est mon calendrier pour savoir quand a été fait quoi.
+- Le [jupyter notebook](/campagne_picomoteurs.ipynb) contient le test avec et sans charge du 8311.
 
-## Driver
+- L'erreur reste la même dans les deux cas. Seule la vitesse mesurée VS la vitesse de commande change, avec un net ralentissement en charge :
 
-- Le dossier [Driver](/Drivers) contient les différents drivers écrit pour communiquer aux instruments
-
-## Orders_et_setup
-
-- Le dossier [Commandes](/Orders_et_setup/Commandes) contient les bons de commande relatif à la manip
-- Le dossier [Inventaire_setup](/Orders_et_setup/Inventaire_setup) contient un excel qui récapitule tous les éléments achetés pour la manip
-
-
+<div align="center">
+  <img src="image.png" width="300">
+</div>
