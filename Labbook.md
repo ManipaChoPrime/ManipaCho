@@ -33,14 +33,19 @@
 
 ### 23/10/2026
 
-- Test du 8311 avec et sans charge
+- [Test](/Tests/8311/Test_8311_avec_et_sans_charge.md) du 8311 avec et sans charge
 
 ### 26/10/2026
 
 - [Devis](Mes_recherches/Steering%20mirror/Steering%20mirror.md) de PI France pour le steering reçu 
 - Reflexion sur l'[imagerie en lampe blanche](/Element_de_theorie/Optique/Imagerie_en_lampe_blanche/Imagerie_en_lampe_banche.md)
 
-![alt text](image.png)
+- [Freecad](/Freecad) pour le schéma du setup. 
+
+- Reflexion avec l'IA sur les composants, et tentative de plan de la boite :
+    - [Excitation arrière](/Freecad/Excitation_arriere/Excitation_arriere.md) dans la boite
+
+
 
 
 

@@ -1,0 +1,4 @@
+- Définir d'abord sur un markdown ce qu'il faut y intégrer au minimum
+- Positionner d'abord les gros objet qui seront forcément là :
+    - La platine de l'échantillon
+    - La platine de 
