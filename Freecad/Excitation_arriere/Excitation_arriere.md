@@ -37,5 +37,17 @@ Comme la table fait moins de 20cm, on est tranquille avec $z_R$ = 0,41 m.
 ## Support fixe
 
 - [Support fixe](https://www.thorlabs.com/item/FMP1_M) de chez Thorlabs.
+- [Tige](https://www.thorlabs.com/item/TR75V_M). 75 mm par exemple. Doit pouvoir atteindre la hauteur de la table optique depuis le "sol".
 
 ![alt text](image-3.png)
+
+## Ensemble excitation arrière + lentille sur mesure 
+
+La sortie de l'excitation arrière et la lentille sur mesure peuvent spatialement se suivre, le faisceau étant collimaté. 
+Cependant, l'ensemble doit être sur une "platine" comprenant un axe z, pour pouvoir deplacer la lentille sur mesure jusqu'à être à bonne distance du substrat en verre de 3mm. Cela peut éventuellement seulement concerner la lentille sur mesure. En effet, peu importe la distance entre la sortie de fibre et la lentille. On peut donc envisager de mettre la sortie de fibre en dehors de la table optique (peu importe les vibrations de cette partie du setup).
+
+Problème : Si l'ensemble n'est pas solidaire de la table optique, c'est impossible à aligner en dehors de la booite :/ Je pense qu'il faut essayer de l'inclure à la table optique en premier lieu.
+
+## Echantillon
+
+Pour les premiers tests, on ne veut pas d'émetteurs mais seulement un DBR pour fermer la cavité.

@@ -45,6 +45,19 @@
 - Reflexion avec l'IA sur les composants, et tentative de plan de la boite :
     - [Excitation arrière](/Freecad/Excitation_arriere/Excitation_arriere.md) dans la boite
 
+### 27/10/2026 
+
+- Prise en main de freecad
+- Schéma optique détaillé du set up
+
+### 28/10/2026
+
+- Réponse de Edmund à propos du shortpass : [Reflectivity data](/Mes_recherches/Bragg/image-2.png) indique une réflectivité de 99.98 à 99.99 % autour de 1300 nm. A voir avec Yannick si ça va ou non !
+
+- [Schéma optique](/Schema_optique/Schema/Free_space.svg) du free space
+- [Schéma optique](/Schema_optique/Schema/Close_up.svg) zoomer sur les config free space et cavité au niveau de l'échantillon.
+- [Procédure d'alignement](/Schema_optique/Procedure_alignement/Procedure_alignement.md) envisagée pour ce setup
+
 
 
 

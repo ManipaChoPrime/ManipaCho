@@ -31,3 +31,14 @@ On cherche un miroir diélectrique qui soit :
 
 - Une demande de courbe de reflectivité plutôt que de blocking a été demandé à Edmund.
 
+- Voilà la courbe de réflectivité du shortpass : ![alt text](image-2.png)
+
+- Elle indique R = 99.98 % autour de 1300 nm ! 
+
+- Problème : la mesure indique R = 100 - T. C'est juste un zoom de la courbe qu'on avait déjà. 
+
+- Cependant :
+    - La mesure en fonction du rayon est là parce que le shortpass vient d'un wafer circulaire. Et il a l'air homogène. J'imagine que ça veut dire une diffusion assez faible du matériau. Sachant aussi que c'est industriel, ça doit être optimisé.
+    - L'absorption doit pouvoir se trouver, étant donné qu'on connait probablement le matériau et son indice. Elle est bulk, le truc est hyper fin, je pense que c'est ok.
+    - On estv à 99.98%, c'est pas un drame si ça diminue un poil non ? 
+

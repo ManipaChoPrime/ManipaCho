@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="1120"
+   viewBox="0 0 1200 1120"
+   version="1.1"
+   id="svg70"
+   sodipodi:docname="Close_up.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview70"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="432.74935"
+     inkscape:cy="561.44278"
+     inkscape:window-width="960"
+     inkscape:window-height="518"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer_labels" />
+  <defs
+     id="defs1">
+    <marker
+       id="da"
+       markerWidth="8"
+       markerHeight="8"
+       refX="4"
+       refY="4"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L8,4 L0,8 Z"
+         fill="#555"
+         id="path1" />
+    </marker>
+    <marker
+       id="da-9"
+       markerWidth="8"
+       markerHeight="8"
+       refX="4"
+       refY="4"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#555555"
+         id="path1-4" />
+    </marker>
+    <marker
+       id="marker2"
+       markerWidth="8"
+       markerHeight="8"
+       refX="4"
+       refY="4"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#555555"
+         id="path2" />
+    </marker>
+  </defs>
+  <g
+     id="layer_components"
+     inkscape:groupmode="layer"
+     inkscape:label="Composants">
+    <g
+       id="sample_A"
+       inkscape:label="Sample + nanotube">
+      <rect
+         x="694"
+         y="165"
+         width="6"
+         height="270"
+         fill="#e8c36a"
+         stroke="#333333"
+         stroke-width="1.5"
+         id="rect2" />
+      <circle
+         cx="696.5"
+         cy="300"
+         r="3.5"
+         fill="#ff8c00"
+         stroke="#000000"
+         stroke-width="0.8"
+         id="circle3" />
+    </g>
+    <g
+       id="DBR_A"
+       inkscape:label="DBR (shortpass)">
+      <rect
+         x="700"
+         y="165"
+         width="10"
+         height="270"
+         fill="#7f9fbf"
+         stroke="#333"
+         stroke-width="1.5"
+         id="rect4" />
+    </g>
+    <g
+       id="silica_A"
+       inkscape:label="Fused silica 3 mm">
+      <rect
+         x="710"
+         y="165"
+         width="55"
+         height="270"
+         fill="#e6f2fb"
+         stroke="#333"
+         stroke-width="1.5"
+         id="rect5" />
+    </g>
+    <g
+       id="rear_fibre_A"
+       inkscape:label="Rear excitation fibre"
+       transform="translate(9.5061728,0.06110804)">
+      <line
+         x1="1055"
+         y1="300"
+         x2="1170"
+         y2="300"
+         stroke="#777777"
+         stroke-width="2.5"
+         id="line7" />
+    </g>
+    <g
+       id="stage_sample_A"
+       inkscape:label="Sample stage XYZ">
+      <rect
+         x="670"
+         y="20"
+         width="190"
+         height="95"
+         fill="#eef1f5"
+         stroke="#333"
+         stroke-width="2"
+         id="rect8" />
+      <text
+         x="765"
+         y="52"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="15"
+         font-weight="bold"
+         fill="#111"
+         id="text8">Sample stage</text>
+      <text
+         x="765"
+         y="72"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="14"
+         font-weight="normal"
+         fill="#555"
+         id="text9">x  y  z</text>
+      <rect
+         x="720"
+         y="75"
+         width="12"
+         height="90"
+         fill="#aab0b8"
+         stroke="#333"
+         stroke-width="1.5"
+         id="rect9" />
+    </g>
+    <g
+       id="platform_A"
+       inkscape:label="Front platform XYZ (z = height)">
+      <rect
+         x="250"
+         y="459"
+         width="430"
+         height="60"
+         fill="#eef1f5"
+         stroke="#333"
+         stroke-width="2"
+         id="rect10" />
+      <text
+         x="465"
+         y="487"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="15"
+         font-weight="bold"
+         fill="#111"
+         id="text10">Front platform</text>
+      <text
+         x="465"
+         y="507"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="14"
+         font-weight="normal"
+         fill="#555"
+         id="text11">x  y  z</text>
+    </g>
+    <g
+       id="support_objective_A"
+       inkscape:label="Objective support"
+       transform="translate(4.1553436,0.12221599)">
+      <rect
+         x="370"
+         y="318"
+         width="14"
+         height="141"
+         fill="#aab0b8"
+         stroke="#333333"
+         stroke-width="1.5"
+         id="rect11" />
+    </g>
+    <g
+       id="support_piezo_A"
+       inkscape:label="Piezo tube support">
+      <rect
+         x="520"
+         y="414"
+         width="26"
+         height="45"
+         fill="#aab0b8"
+         stroke="#333"
+         stroke-width="1.5"
+         id="rect12" />
+    </g>
+    <g
+       id="objective_A"
+       inkscape:label="Objective (aspheric lens)"
+       transform="translate(4.1553436,0.12221599)">
+      <path
+         d="m 370.24443,280.28898 v 36 h 14 q 14,-18 0,-36 z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path13" />
+    </g>
+    <g
+       id="fibre_A"
+       inkscape:label="DBR-coated fibre on piezo tube">
+      <rect
+         x="470"
+         y="386"
+         width="100"
+         height="28"
+         fill="#e9d8f0"
+         stroke="#5b3a76"
+         stroke-width="2"
+         id="rect14" />
+      <line
+         x1="570"
+         y1="400"
+         x2="684"
+         y2="400"
+         stroke="#888"
+         stroke-width="3"
+         id="line14" />
+      <line
+         x1="302.6929"
+         y1="400.73743"
+         x2="469.0188"
+         y2="400.73743"
+         stroke="#888888"
+         stroke-width="3.62367"
+         id="line14-4" />
+      <line
+         x1="229.25"
+         y1="400.78278"
+         x2="303.41428"
+         y2="400.78278"
+         stroke="#888888"
+         stroke-width="2.41972"
+         id="line14-4-9"
+         style="stroke-width:3.72;stroke-dasharray:7.44000006,3.72000003;stroke-dashoffset:0" />
+      <rect
+         x="677"
+         y="397"
+         width="7"
+         height="6"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         id="rect15" />
+    </g>
+    <g
+       id="aspheric_rear"
+       inkscape:label="Aspheric lens (rear)"
+       transform="matrix(-1.3543393,0,0,1.1904997,2254.0213,-295.13756)">
+      <g
+         transform="matrix(-1,0,0,1,1000,500)"
+         id="g19">
+        <path
+           d="M -6,-32 H 0 Q 20.48,0 0,32 h -6 z"
+           fill="#9db7d3"
+           stroke="#1f4e79"
+           stroke-width="2"
+           id="path19-29" />
+      </g>
+    </g>
+    <g
+       id="aspheric_rear-2"
+       inkscape:label="Aspheric lens (rear)"
+       transform="matrix(-1.2364745,0.28726229,0.27706819,1.1559981,1958.0003,-536.43299)">
+      <g
+         transform="matrix(-1,0,0,1,1000,500)"
+         id="g19-3">
+        <path
+           d="m -33.093227,-14.233447 -0.03368,0.07369 c 21.050984,10.4905388 28.4608529,15.09860228 54.701515,27.613619 l 0.09297,0.0702 z"
+           fill="#9db7d3"
+           stroke="#1f4e79"
+           stroke-width="2"
+           id="path19-22"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+    <g
+       id="aspheric_rear-2-7"
+       inkscape:label="Aspheric lens (rear)"
+       transform="matrix(-1.2356664,-0.267786,0.27688711,-1.0776218,1957.2099,1077.2848)">
+      <g
+         transform="matrix(-1,0,0,1,1000,500)"
+         id="g19-3-6">
+        <path
+           d="m -33.093227,-14.233447 -0.03368,0.07369 c 21.050984,10.4905388 28.4608529,15.09860228 54.701515,27.613619 l 0.09297,0.0702 z"
+           fill="#9db7d3"
+           stroke="#1f4e79"
+           stroke-width="2"
+           id="path19-22-1"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+    <g
+       id="aspheric_rear-1"
+       inkscape:label="Aspheric lens (rear)"
+       transform="matrix(-0.9569644,0,0,0.70747646,1803.1639,-38.18819)">
+      <g
+         transform="matrix(-1,0,0,1,1027.0185,477.2163)"
+         id="g19-5">
+        <path
+           d="m -6,-32 h 6 c 13.653333,21.333333 13.653333,42.666667 0,64 H -6 V 20.564976 L -4.6353612,13.730215 -3.1732482,2.8678271 -4.050516,-9.8253003 -6,-18.856949 Z"
+           fill="#9db7d3"
+           stroke="#1f4e79"
+           stroke-width="2"
+           id="path19-2"
+           sodipodi:nodetypes="cccccccccc" />
+      </g>
+    </g>
+    <g
+       id="collimator_collection-1"
+       inkscape:label="Collimator (collection)"
+       transform="matrix(-2.0609351,0,0,-2.4279443,1435.964,785.4896)">
+      <rect
+         x="175"
+         y="188"
+         width="40"
+         height="24"
+         fill="#b9c0c9"
+         stroke="#333333"
+         stroke-width="1.5"
+         id="rect12-9" />
+      <path
+         d="m 215,190 9,4 v 12 l -9,4 z"
+         fill="#9db7d3"
+         stroke="#333333"
+         id="path12-8" />
+    </g>
+  </g>
+  <g
+     id="layer_beams"
+     inkscape:groupmode="layer"
+     inkscape:label="Faisceaux">
+    <polygon
+       points="890,270 700,300 890,330"
+       fill="#1b9e3c"
+       fill-opacity="0.28"
+       stroke="#1b9e3c"
+       stroke-width="1.5"
+       id="polygon30" />
+    <rect
+       style="fill:#ff0101;fill-opacity:0.253165;stroke:#ff0101;stroke-width:0.89042;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-9"
+       width="147.45644"
+       height="25.45908"
+       x="225.55756"
+       y="284.55151" />
+    <polygon
+       points="798,503 750,517 750,489 "
+       fill="#d62728"
+       fill-opacity="0.2"
+       stroke="#d62728"
+       stroke-width="1.5"
+       id="polygon28"
+       style="fill:#fd0000;fill-opacity:0.2;stroke:#fd0000;stroke-width:0.386031;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(6.4818243,0,0,0.92430088,-4486.6817,-167.64698)" />
+    <rect
+       style="fill:#1ca13e;fill-opacity:0.2;stroke:#1ca13d;stroke-width:0.89042;stroke-dasharray:none;stroke-opacity:1"
+       id="rect71"
+       width="147.45644"
+       height="25.45908"
+       x="225.55756"
+       y="288.08704" />
+    <polygon
+       points="750,517 750,489 798,503 "
+       fill="#d62728"
+       fill-opacity="0.2"
+       stroke="#d62728"
+       stroke-width="1.5"
+       id="polygon71"
+       style="fill:#1ca13e;fill-opacity:0.2;stroke:#1ca13d;stroke-width:0.386031;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(6.4818243,0,0,0.92430088,-4486.6817,-164.11145)" />
+  </g>
+  <g
+     id="layer_labels"
+     inkscape:groupmode="layer"
+     inkscape:label="Annotations">
+    <text
+       x="210.90456"
+       y="302.28427"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#555555"
+       id="text41">Vers le 4f</text>
+    <text
+       x="208.02122"
+       y="880.24261"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#555555"
+       id="text41-7">Collection</text>
+    <text
+       x="684.46771"
+       y="160.59967"
+       text-anchor="start"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text43">DBR</text>
+    <text
+       x="778.08685"
+       y="454.13364"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text44">Fused silica 3 mm</text>
+    <text
+       x="645.65039"
+       y="385.44925"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text44-7">Coated fibre</text>
+    <text
+       x="861.22046"
+       y="245.37639"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text45">Corrector lens</text>
+    <text
+       x="1035.6437"
+       y="357.73273"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#111111"
+       id="text47">Rear collimator</text>
+    <text
+       x="1179.5062"
+       y="290.0611"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text48">Rear excitation</text>
+    <text
+       x="687.43213"
+       y="283.28394"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="13px"
+       font-weight="normal"
+       fill="#444444"
+       id="text49">Nanotube</text>
+    <text
+       x="387.94617"
+       y="255.85786"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text50">Objective</text>
+    <text
+       x="581.51831"
+       y="440.36395"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#111111"
+       id="text51">Piezo tube</text>
+    <text
+       x="521.99902"
+       y="379.02148"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#111111"
+       id="text51-6"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         x="521.99902"
+         y="379.02148">Clamp</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72"
+         x="521.99902"
+         y="396.52148" /></text>
+    <text
+       x="30"
+       y="30"
+       text-anchor="start"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="19"
+       font-weight="bold"
+       fill="#111"
+       id="text52">A : objective in focus, fibre 5 mm too low</text>
+    <line
+       x1="235"
+       y1="517"
+       x2="235"
+       y2="417"
+       stroke="#555"
+       stroke-width="1.8"
+       marker-start="url(#da)"
+       marker-end="url(#da)"
+       id="line53" />
+    <text
+       x="228"
+       y="473"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14"
+       font-weight="normal"
+       fill="#555"
+       id="text53">z</text>
+    <g
+       id="platform_A-8"
+       inkscape:label="Front platform XYZ (z = height)"
+       transform="translate(-3.6008488,474.92773)">
+      <rect
+         x="250"
+         y="459"
+         width="430"
+         height="60"
+         fill="#eef1f5"
+         stroke="#333333"
+         stroke-width="2"
+         id="rect10-3" />
+      <text
+         x="465"
+         y="487"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="15px"
+         font-weight="bold"
+         fill="#111111"
+         id="text10-5">Front platform</text>
+      <text
+         x="465"
+         y="507"
+         text-anchor="middle"
+         font-family="Arial, Helvetica, sans-serif"
+         font-size="14px"
+         font-weight="normal"
+         fill="#555555"
+         id="text11-1">x y z</text>
+    </g>
+    <g
+       id="support_objective_A-2"
+       inkscape:label="Objective support"
+       transform="translate(0.55449119,475.04995)">
+      <rect
+         x="370"
+         y="318"
+         width="14"
+         height="141"
+         fill="#aab0b8"
+         stroke="#333333"
+         stroke-width="1.5"
+         id="rect11-0" />
+    </g>
+    <g
+       id="support_piezo_A-1"
+       inkscape:label="Piezo tube support"
+       transform="translate(-3.6008488,474.92773)">
+      <rect
+         x="520"
+         y="414"
+         width="26"
+         height="45"
+         fill="#aab0b8"
+         stroke="#333333"
+         stroke-width="1.5"
+         id="rect12-6" />
+    </g>
+    <g
+       id="objective_A-4"
+       inkscape:label="Objective (aspheric lens)"
+       transform="translate(0.55449119,475.04995)">
+      <path
+         d="m 370.24443,280.28898 v 36 h 14 q 14,-18 0,-36 z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path13-0" />
+    </g>
+    <g
+       id="fibre_A-6"
+       inkscape:label="DBR-coated fibre on piezo tube"
+       transform="translate(-3.6008488,474.92773)">
+      <rect
+         x="470"
+         y="386"
+         width="100"
+         height="28"
+         fill="#e9d8f0"
+         stroke="#5b3a76"
+         stroke-width="2"
+         id="rect14-1" />
+      <line
+         x1="570"
+         y1="400"
+         x2="684"
+         y2="400"
+         stroke="#888888"
+         stroke-width="3"
+         id="line14-8" />
+      <line
+         x1="302.6929"
+         y1="400.73743"
+         x2="469.0188"
+         y2="400.73743"
+         stroke="#888888"
+         stroke-width="3.62367"
+         id="line14-4-98" />
+      <line
+         x1="229.25"
+         y1="400.78278"
+         x2="303.41428"
+         y2="400.78278"
+         stroke="#888888"
+         stroke-width="2.41972"
+         id="line14-4-9-4"
+         style="stroke-width:3.72;stroke-dasharray:7.44, 3.72;stroke-dashoffset:0" />
+      <rect
+         x="677"
+         y="397"
+         width="7"
+         height="6"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         id="rect15-1" />
+    </g>
+    <text
+       x="630.54956"
+       y="864.37695"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text44-7-0">Coated fibre</text>
+    <text
+       x="380.10269"
+       y="739.27087"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="normal"
+       fill="#111111"
+       id="text50-7">Objective</text>
+    <text
+       x="577.91748"
+       y="915.29169"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#111111"
+       id="text51-7">Piezo tube</text>
+    <text
+       x="518.39819"
+       y="853.94922"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#111111"
+       id="text51-6-8"><tspan
+         sodipodi:role="line"
+         id="tspan71-3"
+         x="518.39819"
+         y="853.94922">Clamp</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72-8"
+         x="518.39819"
+         y="871.44922" /></text>
+    <line
+       x1="231.39914"
+       y1="1037.9277"
+       x2="231.39914"
+       y2="937.92773"
+       stroke="#555555"
+       stroke-width="1.8"
+       marker-start="url(#da-9)"
+       marker-end="url(#da-9)"
+       id="line53-3"
+       style="marker-start:url(#da-9);marker-end:url(#da-9)" />
+    <text
+       x="224.39914"
+       y="993.92773"
+       text-anchor="end"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#555555"
+       id="text53-7">z + 5mm</text>
+    <text
+       x="30"
+       y="590"
+       text-anchor="start"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="19"
+       font-weight="bold"
+       fill="#111"
+       id="text65">B : platform raised 5 mm, fibre at the emitter, objective too high</text>
+    <line
+       x1="40"
+       y1="1090"
+       x2="80"
+       y2="1090"
+       stroke="#1b9e3c"
+       stroke-width="4"
+       id="line68" />
+    <text
+       x="90"
+       y="1095"
+       text-anchor="start"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15"
+       font-weight="normal"
+       fill="#111"
+       id="text69">1000 nm</text>
+    <line
+       x1="200"
+       y1="1090"
+       x2="240"
+       y2="1090"
+       stroke="#d62728"
+       stroke-width="4"
+       id="line69" />
+    <text
+       x="250"
+       y="1095"
+       text-anchor="start"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15"
+       font-weight="normal"
+       fill="#111"
+       id="text70">1310 nm</text>
+    <line
+       x1="10"
+       y1="550"
+       x2="1190"
+       y2="550"
+       stroke="#bbb"
+       stroke-width="1.5"
+       stroke-dasharray="6 6"
+       id="line70" />
+  </g>
+  <rect
+     style="fill:#1a9b3a;fill-opacity:0.246377;stroke:#1b9d3c;stroke-width:0.920609"
+     id="rect70"
+     width="81.803413"
+     height="60.902119"
+     x="890.94952"
+     y="269.45694" />
+  <g
+     id="sample_A-7"
+     inkscape:label="Sample + nanotube"
+     transform="translate(-10.04248,575)">
+    <rect
+       x="694"
+       y="165"
+       width="6"
+       height="270"
+       fill="#e8c36a"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="rect2-2" />
+    <circle
+       cx="696.5"
+       cy="300"
+       r="3.5"
+       fill="#ff8c00"
+       stroke="#000000"
+       stroke-width="0.8"
+       id="circle3-6" />
+  </g>
+  <g
+     id="DBR_A-0"
+     inkscape:label="DBR (shortpass)"
+     transform="translate(-10.04248,575)">
+    <rect
+       x="700"
+       y="165"
+       width="10"
+       height="270"
+       fill="#7f9fbf"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="rect4-1" />
+  </g>
+  <g
+     id="silica_A-6"
+     inkscape:label="Fused silica 3 mm"
+     transform="translate(-10.04248,575)">
+    <rect
+       x="710"
+       y="165"
+       width="55"
+       height="270"
+       fill="#e6f2fb"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="rect5-5" />
+  </g>
+  <g
+     id="rear_fibre_A-7"
+     inkscape:label="Rear excitation fibre"
+     transform="translate(-0.53630715,575.06111)">
+    <line
+       x1="1055"
+       y1="300"
+       x2="1170"
+       y2="300"
+       stroke="#777777"
+       stroke-width="2.5"
+       id="line7-5" />
+  </g>
+  <g
+     id="stage_sample_A-4"
+     inkscape:label="Sample stage XYZ"
+     transform="translate(-10.04248,575)">
+    <rect
+       x="670"
+       y="20"
+       width="190"
+       height="95"
+       fill="#eef1f5"
+       stroke="#333333"
+       stroke-width="2"
+       id="rect8-1" />
+    <text
+       x="765"
+       y="52"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="15px"
+       font-weight="bold"
+       fill="#111111"
+       id="text8-2">Sample stage</text>
+    <text
+       x="765"
+       y="72"
+       text-anchor="middle"
+       font-family="Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="normal"
+       fill="#555555"
+       id="text9-0">x y z</text>
+    <rect
+       x="720"
+       y="75"
+       width="12"
+       height="90"
+       fill="#aab0b8"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="rect9-0" />
+  </g>
+  <g
+     id="aspheric_rear-14"
+     inkscape:label="Aspheric lens (rear)"
+     transform="matrix(-1.3543393,0,0,1.1904997,2243.9788,279.86244)">
+    <g
+       transform="matrix(-1,0,0,1,1000,500)"
+       id="g19-6">
+      <path
+         d="M -6,-32 H 0 Q 20.48,0 0,32 h -6 z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path19-29-0" />
+    </g>
+  </g>
+  <g
+     id="aspheric_rear-2-71"
+     inkscape:label="Aspheric lens (rear)"
+     transform="matrix(-1.2364745,0.28726229,0.27706819,1.1559981,1947.9578,38.56701)">
+    <g
+       transform="matrix(-1,0,0,1,1000,500)"
+       id="g19-3-7">
+      <path
+         d="m -33.093227,-14.233447 -0.03368,0.07369 c 21.050984,10.4905388 28.4608529,15.09860228 54.701515,27.613619 l 0.09297,0.0702 z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path19-22-7"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+  <g
+     id="aspheric_rear-2-7-7"
+     inkscape:label="Aspheric lens (rear)"
+     transform="matrix(-1.2356664,-0.267786,0.27688711,-1.0776218,1947.1674,1652.2848)">
+    <g
+       transform="matrix(-1,0,0,1,1000,500)"
+       id="g19-3-6-7">
+      <path
+         d="m -33.093227,-14.233447 -0.03368,0.07369 c 21.050984,10.4905388 28.4608529,15.09860228 54.701515,27.613619 l 0.09297,0.0702 z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path19-22-1-3"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+  <g
+     id="aspheric_rear-1-3"
+     inkscape:label="Aspheric lens (rear)"
+     transform="matrix(-0.9569644,0,0,0.70747646,1793.1214,536.81181)">
+    <g
+       transform="matrix(-1,0,0,1,1027.0185,477.2163)"
+       id="g19-5-5">
+      <path
+         d="m -6,-32 h 6 c 13.653333,21.333333 13.653333,42.666667 0,64 H -6 V 20.564976 L -4.6353612,13.730215 -3.1732482,2.8678271 -4.050516,-9.8253003 -6,-18.856949 Z"
+         fill="#9db7d3"
+         stroke="#1f4e79"
+         stroke-width="2"
+         id="path19-2-9"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+  </g>
+  <g
+     id="collimator_collection-1-9"
+     inkscape:label="Collimator (collection)"
+     transform="matrix(-2.0609351,0,0,-2.4279443,1425.9215,1360.4896)">
+    <rect
+       x="175"
+       y="188"
+       width="40"
+       height="24"
+       fill="#b9c0c9"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="rect12-9-8" />
+    <path
+       d="m 215,190 9,4 v 12 l -9,4 z"
+       fill="#9db7d3"
+       stroke="#333333"
+       id="path12-8-1" />
+  </g>
+  <polygon
+     points="700,300 890,330 890,270 "
+     fill="#1b9e3c"
+     fill-opacity="0.28"
+     stroke="#1b9e3c"
+     stroke-width="1.5"
+     id="polygon30-2"
+     transform="translate(-10.04248,575)" />
+  <text
+     x="674.42523"
+     y="735.59967"
+     text-anchor="start"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     font-weight="normal"
+     fill="#111111"
+     id="text43-6">DBR</text>
+  <text
+     x="768.04437"
+     y="1029.1337"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     font-weight="normal"
+     fill="#111111"
+     id="text44-0">Fused silica 3 mm</text>
+  <text
+     x="851.17798"
+     y="820.3764"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     font-weight="normal"
+     fill="#111111"
+     id="text45-3">Corrector lens</text>
+  <text
+     x="1025.6012"
+     y="932.73267"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="14px"
+     font-weight="normal"
+     fill="#111111"
+     id="text47-8">Rear collimator</text>
+  <text
+     x="1169.4637"
+     y="865.0611"
+     text-anchor="end"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     font-weight="normal"
+     fill="#111111"
+     id="text48-0">Rear excitation</text>
+  <rect
+     style="fill:#1a9b3a;fill-opacity:0.246377;stroke:#1b9d3c;stroke-width:0.920609"
+     id="rect70-5"
+     width="81.803413"
+     height="60.902119"
+     x="880.90704"
+     y="844.45691" />
+</svg>
