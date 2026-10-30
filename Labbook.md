@@ -69,7 +69,7 @@
 
 - Test et confirmation qu'aucun moteur ne rentre dans les axes XY des platines. A voir avec Yannick rapidement.
 
-- Théorie avec Gemini de la [résonance mecanique de la fibre](/Elements_de_theorie/Resonance_mecanique/Theorie_vibration_poutre.md) si elle dépasse de 250 um (par exemple) :
+- Théorie avec Gemini de la [résonance mecanique de la fibre](/Elements_de_theorie/Resonance_mecanique/Resonance_poutre.md) si elle dépasse de 250 um (par exemple) :
     
 
 
