@@ -58,6 +58,20 @@
 - [Schéma optique](/Schema_optique/Schema/Close_up.svg) zoomer sur les config free space et cavité au niveau de l'échantillon.
 - [Procédure d'alignement](/Schema_optique/Procedure_alignement/Procedure_alignement.md) envisagée pour ce setup
 
+### 29/10/2026 
+
+- [Discussion avec Christophe](/Discussions/Discussions_Christophe/29_10_2026.md) sur :
+    - L'encombrement spatial du setup
+    - le type de piezotube / lentille à utiliser
+    - le substrat
+
+### 30/10/2026
+
+- Test et confirmation qu'aucun moteur ne rentre dans les axes XY des platines. A voir avec Yannick rapidement.
+
+- Théorie avec Gemini de la [résonance mecanique de la fibre](/Elements_de_theorie/Resonance_mecanique/Theorie_vibration_poutre.md) si elle dépasse de 250 um (par exemple) :
+    
+
 
 
 
