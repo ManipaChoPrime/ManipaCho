@@ -23,10 +23,10 @@
 
 - Créations d'un dossier dans lequel je regroupe des éléments de théorie quand je les comprends :
     - Sur les [lentilles asphériques](..//Elements_de_theorie/Optique/Lentille_aspherique/Lentille_asphrique_theorie.md)
-    - Sur l'[ouverture numérique](..//Element_de_theorie/Optique/Ouverture_numerique/Ouverture_numerique.md)
-    - Sur la [lentille sur mesure](..//Element_de_theorie/Optique/Lentille_sur_mesure_Yannick/Lentille_sur_mesure_Yannick.md) de Yannick
+    - Sur l'[ouverture numérique](..//Elements_de_theorie/Optique/Ouverture_numerique/Ouverture_numerique.md)
+    - Sur la [lentille sur mesure](..//Elements_de_theorie/Optique/Lentille_sur_mesure_Yannick/Lentille_sur_mesure_Yannick.md) de Yannick
 
-- Création d'un [markdown](..//Discussion_Yannick/Questions_pour_Yannick.md) pour les questions qu'il faudra que je pose à Yannick quand il revient
+- Création d'un [markdown](..//Discussions/Discussion_Yannick/Questions_pour_Yannick.md) pour les questions qu'il faudra que je pose à Yannick quand il revient
 - Création d'un [markdown](..//Orders_et_setup/A_commander/Commandes_a_passer.md) pour se rappeler des choses intelligentes à acheter.
 
 - Recherche d'un [steering mirror](..//Mes_recherches/Steering%20mirror/Steering%20mirror.md) qui pourrait fonctionner sous vide
@@ -38,7 +38,7 @@
 ### 26/10/2026
 
 - [Devis](../Mes_recherches/Steering%20mirror/Steering%20mirror.md) de PI France pour le steering reçu 
-- Reflexion sur l'[imagerie en lampe blanche](..//Element_de_theorie/Optique/Imagerie_en_lampe_blanche/Imagerie_en_lampe_banche.md)
+- Reflexion sur l'[imagerie en lampe blanche](..//Elements_de_theorie/Optique/Imagerie_en_lampe_blanche/Imagerie_en_lampe_banche.md)
 
 - [Freecad](..//Freecad) pour le schéma du setup. 
 
