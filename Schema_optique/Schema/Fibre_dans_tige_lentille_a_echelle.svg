@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 950 550"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="Fibre_dans_tige_lentille_a_echelle.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2"
+     inkscape:cx="352"
+     inkscape:cy="84.75"
+     inkscape:window-width="960"
+     inkscape:window-height="518"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg32" /><defs
+     id="defs2"><style
+       id="style1">
+      .metal-rod  { fill: #d0d5dd; stroke: #222222; stroke-width: 1.5; stroke-linejoin: round; }
+      .metal-dark { fill: #8a929a; stroke: #111111; stroke-width: 1.5; stroke-linejoin: round; }
+      .piezo-body { fill: #e2d2ed; fill-opacity: 0.85; stroke: #6b4c82; stroke-width: 1.5; }
+      .glass-lens { fill: #bde0fe; fill-opacity: 0.8; stroke: #1d3557; stroke-width: 1.5; }
+      .substrate  { fill: #d8e2dc; fill-opacity: 0.85; stroke: #457b9d; stroke-width: 1.5; }
+      .dbr-layer   { fill: #e9c46a; stroke: #d4a373; stroke-width: 1; }
+      .beam-red   { fill: #e63946; fill-opacity: 0.25; stroke: #e63946; stroke-width: 0.8; }
+      .beam-green { fill: #2a9d8f; fill-opacity: 0.30; stroke: #2a9d8f; stroke-width: 0.8; }
+      .fiber-line { stroke: #1d2d44; stroke-width: 2; stroke-linecap: round; fill: none; }
+      .glue-dot   { fill: #f4a261; stroke: #e76f51; stroke-width: 1; }
+      .axis-line  { stroke: #aaaaaa; stroke-width: 1; stroke-dasharray: 5,4; }
+      .zoom-box   { fill: #ffffff; stroke: #333333; stroke-width: 1.5; stroke-dasharray: 4,4; }
+      .text-label { font-family: sans-serif; font-size: 12px; fill: #1c2026; }
+      .dim-line   { stroke: #e63946; stroke-width: 1.2; marker-end: url(#arrow); marker-start: url(#arrow-start); }
+    </style><marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="6"
+       refY="5"
+       markerWidth="5"
+       markerHeight="5"
+       orient="auto-start-reverse"><path
+         d="M 0 1 L 10 5 L 0 9 z"
+         fill="#e63946"
+         id="path1" /></marker><marker
+       id="arrow-start"
+       viewBox="0 0 10 10"
+       refX="4"
+       refY="5"
+       markerWidth="5"
+       markerHeight="5"
+       orient="auto-start-reverse"><path
+         d="M 10 1 L 0 5 L 10 9 z"
+         fill="#e63946"
+         id="path2" /></marker><style
+       id="style1-3">
+      .lens-shape { fill: #e8f4f8; fill-opacity: 0.6; stroke: #1a1a1a; stroke-width: 2; stroke-linejoin: round; }
+      .window-shape { fill: #f0f0f0; fill-opacity: 0.6; stroke: #1a1a1a; stroke-width: 2; stroke-linejoin: round; }
+      .ray-line { fill: none; stroke: #2c3e50; stroke-width: 1.5; stroke-linecap: round; }
+      .axis-line { stroke: #95a5a6; stroke-width: 1; stroke-dasharray: 6,4; }
+      .scale-line { stroke: #000000; stroke-width: 2; }
+      .label-text { font-family: sans-serif; font-size: 14px; fill: #1a1a1a; }
+      .annotation-text { font-family: sans-serif; font-size: 13px; fill: #2c3e50; font-style: italic; }
+    </style><style
+       id="style1-4">
+      .metal-body { fill: #8a929a; stroke: #1c2026; stroke-width: 1.2; stroke-linejoin: round; }
+      .metal-detail { fill: #6c757d; stroke: #1c2026; stroke-width: 1; }
+      .glass-lens { fill: #bde0fe; fill-opacity: 0.8; stroke: #1d3557; stroke-width: 1.2; }
+      .thread-line { stroke: #212529; stroke-width: 1; }
+      .axis-line { stroke: #aaaaaa; stroke-width: 0.8; stroke-dasharray: 4,3; }
+    </style></defs><!-- AXE OPTIQUE PRINCIPAL (Y = 63 px, Axe X) --><line
+     x1="50"
+     y1="63"
+     x2="500"
+     y2="63"
+     class="axis-line"
+     id="line2" /><!-- AXE CENTRAL D'ASSEMBLAGE TIGE/PIEZO (X = 300 px) --><line
+     x1="300"
+     y1="10"
+     x2="300"
+     y2="520"
+     class="axis-line"
+     id="line3" /><!-- ========================================== --><!-- 1. FAISCEAUX OPTIQUES VRAIE ÉCHELLE        --><!-- ========================================== --><g
+     id="faisceaux-optiques"><!-- Laser d'excitation incident (Laser Rouge) --><polygon
+       points="50,45 270,45 270,81 50,81"
+       class="beam-red"
+       id="polygon3" /><!-- Focalisation sur l'échantillon à f = 5.5 mm (X = 355 px) --><polygon
+       points="270,45 355,63 270,81"
+       class="beam-red"
+       id="polygon4" /><!-- Collection Photoluminescence en retour (Vert) --><polygon
+       points="355,63 270,35 270,91"
+       class="beam-green"
+       id="polygon5" /><polygon
+       points="270,35 50,35 50,91 270,91"
+       class="beam-green"
+       id="polygon6" /></g><!-- ========================================== --><!-- 2. TUBE PIÉZO PT230 (L=30mm, OD=10mm)      --><!-- ========================================== --><g
+     id="piezo-tube"><!-- Paroi du Piézo : OD = 10mm (X=250 à 350), ID = 9mm (X=255 à 345) --><!-- Gauche --><rect
+       x="250"
+       y="180"
+       width="5"
+       height="300"
+       class="piezo-body"
+       id="rect6" /><!-- Droite --><rect
+       x="345"
+       y="180"
+       width="5"
+       height="300"
+       class="piezo-body"
+       id="rect7" /><!-- Tranche supérieure du Piézo (Y = 180) --><rect
+       x="250"
+       y="177"
+       width="100"
+       height="6"
+       rx="1"
+       class="piezo-body"
+       id="rect8" /><!-- Goutte de colle pour fixer la fibre sur le Piézo --></g><!-- ========================================== --><!-- 3. TIGE THORLABS 6mm (H = 38.1 mm)        --><!-- ========================================== --><g
+     id="tige-thorlabs"><!-- Tige Ø 6mm (X = 270 à 330, Hauteur total 381px) --><!-- Partie basse (sous le perçage) --><rect
+       x="269.9989"
+       y="184.9989"
+       width="60.002209"
+       height="295.11832"
+       class="metal-rod"
+       id="rect9" /><!-- PERÇAGE TRANSVERSAL DE 1 mm (Y = 175 à 185) DE PART EN PART --><!-- Le trou traverse toute la largeur de 6 mm de la tige --><rect
+       x="270"
+       y="175"
+       width="60"
+       height="10"
+       fill="#ffffff"
+       stroke="#222222"
+       stroke-width="1"
+       id="rect10" /><!-- Partie haute (au-dessus du perçage, H = 8.1 mm -> Y = 99 à 175) --><rect
+       x="270"
+       y="99"
+       width="60"
+       height="76"
+       class="metal-rod"
+       id="rect11" /><rect
+       style="opacity:0.477941;fill:#000000;fill-opacity:0.2;stroke:#000000;stroke-width:4.86249;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect35"
+       width="345.65265"
+       height="62.755737"
+       x="2.6673129"
+       y="483.18234" /><rect
+       style="opacity:0.477941;fill:#000000;fill-opacity:0.2;stroke:#000000;stroke-width:3.68472;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect35-3"
+       width="194.83041"
+       height="63.933506"
+       x="376.24646"
+       y="483.43674" /></g><g
+     id="tige-thorlabs-8"
+     transform="translate(105.47959,44.349237)"><!-- Tige Ø 6mm (X = 270 à 330, Hauteur total 381px) --><!-- Partie basse (sous le perçage) --><rect
+       x="269.93945"
+       y="187.02492"
+       width="60.121117"
+       height="249.62592"
+       class="metal-rod"
+       id="rect9-4"
+       style="fill:#d0d5dd;stroke:#222222;stroke-width:1.37889;stroke-linejoin:round" /><!-- PERÇAGE TRANSVERSAL DE 1 mm (Y = 175 à 185) DE PART EN PART --><!-- Le trou traverse toute la largeur de 6 mm de la tige --><rect
+       x="269.80026"
+       y="-20.167622"
+       width="60.426868"
+       height="191.43782"
+       fill="#ffffff"
+       stroke="#222222"
+       stroke-width="4.21904"
+       id="rect10-9"
+       style="stroke-width:1.04073;stroke-dasharray:none" /><!-- Partie haute (au-dessus du perçage, H = 8.1 mm -> Y = 99 à 175) --><rect
+       x="269.60254"
+       y="-34.898312"
+       width="60.854473"
+       height="13.877774"
+       class="metal-rod"
+       id="rect11-9"
+       style="fill:#d0d5dd;stroke:#222222;stroke-width:0.645528;stroke-linejoin:round" /><rect
+       x="269.65848"
+       y="172.11031"
+       width="60.854473"
+       height="13.877774"
+       class="metal-rod"
+       id="rect11-9-5"
+       style="fill:#d0d5dd;stroke:#222222;stroke-width:0.645528;stroke-linejoin:round" /><g
+       id="g35"
+       transform="matrix(0.41818182,0,0,0.41818182,406.84902,-25.701006)"><rect
+         width="100%"
+         height="100%"
+         fill="#ffffff"
+         id="rect1"
+         x="0"
+         y="0" /><g
+         id="echelle"><line
+           x1="30"
+           y1="40"
+           x2="130"
+           y2="40"
+           class="scale-line"
+           id="line1" /><line
+           x1="30"
+           y1="30"
+           x2="30"
+           y2="50"
+           class="scale-line"
+           id="line2-3" /><line
+           x1="130"
+           y1="30"
+           x2="130"
+           y2="50"
+           class="scale-line"
+           id="line3-7" /><text
+           x="65"
+           y="28"
+           class="label-text"
+           text-anchor="middle"
+           id="text3">4 mm</text></g><line
+         x1="20"
+         y1="250"
+         x2="760"
+         y2="250"
+         class="axis-line"
+         id="line4" /><path
+         d="M 350,40 400,20 H 550 V 480 H 400 L 350,460 C 280,380 270,300 270,250 270,200 280,120 350,40 Z"
+         class="lens-shape"
+         id="path4" /><path
+         d="m 615,135 c -20,55 -20,175 0,230 h 15 c -10,-55 -10,-175 0,-230 z"
+         class="lens-shape"
+         id="path5" /><rect
+         x="650"
+         y="135"
+         width="60"
+         height="230"
+         class="window-shape"
+         id="rect5" /><g
+         id="rayons"><!-- Rayon 1 (Haut) --><polyline
+           points="150,70 348,70 550,130 606,155 625,170 650,185 710,250"
+           class="ray-line"
+           id="polyline5" /><!-- Rayon 2 --><polyline
+           points="150,115 325,115 550,160 603,180 627,192 650,202 710,250"
+           class="ray-line"
+           id="polyline6" /><!-- Rayon 3 --><polyline
+           points="150,160 298,160 550,190 601,203 629,212 650,218 710,250"
+           class="ray-line"
+           id="polyline7" /><!-- Rayon 4 --><polyline
+           points="150,205 277,205 550,220 600,226 631,231 650,234 710,250"
+           class="ray-line"
+           id="polyline8" /><!-- Rayon Central (Axe) --><polyline
+           points="150,250 710,250"
+           class="ray-line"
+           id="polyline9" /><!-- Rayon 6 --><polyline
+           points="150,295 277,295 550,280 600,274 631,269 650,266 710,250"
+           class="ray-line"
+           id="polyline10" /><!-- Rayon 7 --><polyline
+           points="150,340 298,340 550,310 601,297 629,288 650,282 710,250"
+           class="ray-line"
+           id="polyline11" /><!-- Rayon 8 --><polyline
+           points="150,385 325,385 550,340 603,320 627,308 650,298 710,250"
+           class="ray-line"
+           id="polyline12" /><!-- Rayon 9 (Bas) --><polyline
+           points="150,430 348,430 550,370 606,345 625,330 650,315 710,250"
+           class="ray-line"
+           id="polyline13" /></g><circle
+         cx="710"
+         cy="250"
+         r="3"
+         fill="#e63946"
+         id="circle13" /><text
+         x="400"
+         y="465"
+         class="annotation-text"
+         id="text13">37-424  (NA = 0.67)</text></g></g><g
+     id="tige-thorlabs-9"
+     transform="translate(185.75,13.75)"><!-- Tige Ø 6mm (X = 270 à 330, Hauteur total 381px) --><!-- Partie basse (sous le perçage) --><!-- PERÇAGE TRANSVERSAL DE 1 mm (Y = 175 à 185) DE PART EN PART --><!-- Le trou traverse toute la largeur de 6 mm de la tige --><!-- Partie haute (au-dessus du perçage, H = 8.1 mm -> Y = 99 à 175) --></g><!-- ========================================== --><!-- 4. LENTILLE C105TMD-C (OD=9mm, H=7.2mm)    --><!-- ========================================== --><g
+     id="lentille-c105tmd"
+     style="opacity:0.47794118"><!-- Fût métallique compact (OD 9mm -> X=255 à 345, L=7.2mm -> Y=27 à 99) --><rect
+       x="255"
+       y="27"
+       width="90"
+       height="72"
+       rx="2"
+       class="metal-dark"
+       id="rect12" /><!-- Filetage M9 x 0.5 --><line
+       x1="252"
+       y1="35"
+       x2="255"
+       y2="35"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line12" /><line
+       x1="252"
+       y1="45"
+       x2="255"
+       y2="45"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line13" /><line
+       x1="252"
+       y1="55"
+       x2="255"
+       y2="55"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line14" /><line
+       x1="345"
+       y1="35"
+       x2="348"
+       y2="35"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line15" /><line
+       x1="345"
+       y1="45"
+       x2="348"
+       y2="45"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line16" /><line
+       x1="345"
+       y1="55"
+       x2="348"
+       y2="55"
+       stroke="#111"
+       stroke-width="1.5"
+       id="line17" /><!-- Verre Asphérique à l'intérieur --><path
+       d="M 270,35 Q 295,63 270,91 Q 282,63 270,35 Z"
+       class="glass-lens"
+       id="path17" /></g><!-- ========================================== --><!-- 5. FIBRE OPTIQUE TRAVERSANTE (RECTILIGNE)  --><!-- ========================================== --><g
+     id="fibre-optique"><!-- La fibre traverse DE PART EN PART à Y = 180 px --><!-- Entrée à gauche (X=80), traverse le piézo (250-255), la tige (270-330), le piézo (345-350) --><line
+       x1="80"
+       y1="180"
+       x2="352.5"
+       y2="180"
+       class="fiber-line"
+       id="line18" /><!-- Pointe DBR dépassant de 250 µm (2.5 px) à X = 352.5 --><circle
+       cx="352.5"
+       cy="180"
+       r="1.5"
+       fill="#ffb703"
+       stroke="#1d2d44"
+       stroke-width="0.8"
+       id="circle18" /></g><!-- ========================================== --><!-- 6. ÉCHANTILLON SUR DBR (X = 355 px)       --><!-- ========================================== --><g
+     id="echantillon"><!-- Alignement parfait au focus f = 5.5 mm (X = 355 px) --><rect
+       x="355"
+       y="10"
+       width="4"
+       height="220"
+       class="dbr-layer"
+       id="rect18" /><rect
+       x="359"
+       y="10"
+       width="15"
+       height="220"
+       class="substrate"
+       id="rect19" /><!-- Point d'intérêt / Émetteur au focus --><circle
+       cx="355"
+       cy="63"
+       r="2.5"
+       fill="#e63946"
+       stroke="#ffffff"
+       stroke-width="0.8"
+       id="circle19" /></g><!-- ========================================== --><!-- 7. ENCART DE ZOOM (MICRO-GAP DE 500 µm)    --><!-- ========================================== --><!-- ========================================== --><!-- 8. LÉGENDES PRINCIPALES                    --><!-- ========================================== --><g
+     id="legendes"
+     class="text-label"><text
+       x="56.120838"
+       y="17.366461"
+       id="text29">C105TMD-C (L = 7.2 mm, OD = 9 mm)</text><line
+       x1="220"
+       y1="28"
+       x2="255"
+       y2="40"
+       stroke="#555"
+       stroke-width="1"
+       id="line29" /><text
+       x="60"
+       y="160"
+       id="text30">Trou Ø 1 mm dans tige Ø 6 mm</text><text
+       x="62.334709"
+       y="224.11157"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         x="62.334709"
+         y="224.11157">Tube Piézo PT230</tspan><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         x="62.334709"
+         y="239.11157">(L = 30 mm, OD = 10 mm)</tspan></text><text
+       x="80"
+       y="380"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         x="80"
+         y="380">Tige Thorlabs MS1.5R/M</tspan><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         x="80"
+         y="395">(H = 38.1 mm)</tspan></text></g></svg>
