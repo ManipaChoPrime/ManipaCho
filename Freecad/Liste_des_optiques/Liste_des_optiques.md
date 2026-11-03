@@ -17,7 +17,9 @@
 
 - Miroir au milieu du 4f : [PF10-03-P01](https://www.thorlabs.com/item/PF10-03-P01)
 
-- lentille de l'objectif : [C330TMD-C](https://www.thorlabs.com/item/C330TMD-C)
+- Lentille du 4f : [AC127-025-C](https://www.thorlabs.com/item/AC127-025-C)
+
+- Lentille de l'objectif : [C330TMD-C](https://www.thorlabs.com/item/C330TMD-C)
 
 ### Collection avant :
 

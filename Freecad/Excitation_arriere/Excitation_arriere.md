@@ -46,8 +46,9 @@ Comme la table fait moins de 20cm, on est tranquille avec $z_R$ = 0,41 m.
 La sortie de l'excitation arrière et la lentille sur mesure peuvent spatialement se suivre, le faisceau étant collimaté. 
 Cependant, l'ensemble doit être sur une "platine" comprenant un axe z, pour pouvoir deplacer la lentille sur mesure jusqu'à être à bonne distance du substrat en verre de 3mm. Cela peut éventuellement seulement concerner la lentille sur mesure. En effet, peu importe la distance entre la sortie de fibre et la lentille. On peut donc envisager de mettre la sortie de fibre en dehors de la table optique (peu importe les vibrations de cette partie du setup).
 
-Problème : Si l'ensemble n'est pas solidaire de la table optique, c'est impossible à aligner en dehors de la booite :/ Je pense qu'il faut essayer de l'inclure à la table optique en premier lieu.
+Problème : Si l'ensemble n'est pas solidaire de la table optique, c'est impossible à aligner en dehors de la boite :/ 
+Je pense qu'il faut essayer de l'inclure à la table optique en premier lieu.
 
 ## Echantillon
 
-Pour les premiers tests, on ne veut pas d'émetteurs mais seulement un DBR pour fermer la cavité.
+Pour les premiers tests, on ne veut pas d'émetteurs mais seulement un DBR pour fermer la cavité. Il faut qu'il soit sur 3mm de verre pour mimer le futur substrat, et surtout matcher la lentille.

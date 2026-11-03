@@ -1,16 +1,6 @@
-# ManipaCho
+# Description de la première experience 
 
-## Labbook
-
-- Le fichier [Labbook.md](Labbook.md) contient le cahier de manip de la manip : c'est mon calendrier pour savoir quand a été fait quoi.
-
-## Driver
-
-- Le dossier [Driver](/Drivers) contient les différents drivers écrit pour communiquer aux instruments
-
-## Orders_et_setup
-
-- Le dossier [Commandes](/Orders_et_setup/Commandes) contient les bons de commande relatif à la manip
-- Le dossier [Inventaire_setup](/Orders_et_setup/Inventaire_setup) contient un excel qui récapitule tous les éléments achetés pour la manip
-
-
+- Le but est de mesurer la finesse d'une cavité dans la boite. Il faut :
+    - Une cale piezo et un fiber holder : ok
+    - Une imagerie en lampe blanche : à réflechir
+    - Un DBR à 1310 nm
