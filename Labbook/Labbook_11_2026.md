@@ -12,4 +12,10 @@
 
 - [Présentation groupe](../Presentation/group_meeting/Presentation_finale.pdf) le matin
 
-- [Discussion avec Yannick](../Discussions/Discussions_Yannick/04_11_2026.md)
+- [Discussion avec Yannick](../Discussions/Discussions_Yannick/04_11_2026.md) sur tout :
+    - L'excitation arrière dans le détail !
+    - Visu lampe blanche
+
+### 05/11/2026 
+
+- Tentative de fabrication du téléscope sans abérrations : [Telescope](../Elements_de_theorie/Optique/Telescope_sans_aberrations/Telescope.md)
