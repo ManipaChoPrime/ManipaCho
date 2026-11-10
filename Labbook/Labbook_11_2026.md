@@ -24,3 +24,7 @@
 
 - Création finale de l'[excitation arrière](../Mes_recherches/Excitation_arriere/Excitation_arriere.md)
 - Description du [front d'onde de la lumière](../Elements_de_theorie/Optique/Front_d_onde/Front_d_onde.md)
+
+### 10/11/2026
+
+- Tentative de création d'un [traceur de rayon](../RayTracer) pour valider les fronts d'onde selon les configurations envisagées
