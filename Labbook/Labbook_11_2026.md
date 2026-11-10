@@ -19,3 +19,8 @@
 ### 05/11/2026 
 
 - Tentative de fabrication du téléscope sans abérrations : [Telescope](../Elements_de_theorie/Optique/Telescope_sans_aberrations/Telescope.md)
+
+### 09/11/2026
+
+- Création finale de l'[excitation arrière](../Mes_recherches/Excitation_arriere/Excitation_arriere.md)
+- Description du [front d'onde de la lumière](../Elements_de_theorie/Optique/Front_d_onde/Front_d_onde.md)
